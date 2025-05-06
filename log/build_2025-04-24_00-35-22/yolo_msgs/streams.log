@@ -1,0 +1,9 @@
+[0.041s] Invoking command in '/home/rosdev/ros2_ws/build/yolo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/yolo_ros:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/yolo_msgs -- -j12 -l12
+[0.127s] failed to create symbolic link '/home/rosdev/ros2_ws/build/yolo_msgs/ament_cmake_python/yolo_msgs/yolo_msgs' because existing path cannot be removed: Is a directory
+[0.128s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_yolo_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_yolo_msgs] Error 1
+[0.129s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_yolo_msgs.dir/all] Error 2
+[0.129s] gmake[1]: *** Waiting for unfinished jobs....
+[0.131s] [  0%] Built target yolo_msgs__cpp
+[0.140s] [ 12%] Built target yolo_msgs__rosidl_generator_c
+[0.143s] gmake: *** [Makefile:146: all] Error 2
+[0.150s] Invoked command in '/home/rosdev/ros2_ws/build/yolo_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/yolo_ros:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/yolo_msgs -- -j12 -l12

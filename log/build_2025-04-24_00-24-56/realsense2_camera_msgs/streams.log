@@ -1,0 +1,59 @@
+[0.022s] Invoking command in '/home/rosdev/ros2_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/yolo_ros:/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/realsense2_camera_msgs
+[0.047s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.247s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.258s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.261s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.266s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.308s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.346s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.361s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.837s] -- Found ament_cmake_cppcheck: 0.12.12 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[0.838s] -- Found ament_cmake_cpplint: 0.12.12 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[0.839s] -- Found ament_cmake_uncrustify: 0.12.12 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[0.840s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.157s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.594s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.624s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.651s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.651s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.651s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[1.693s] -- Found ament_cmake_flake8: 0.12.12 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.694s] -- Found ament_cmake_pep257: 0.12.12 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.710s] -- Configuring done
+[1.776s] -- Generating done
+[1.796s] -- Build files have been written to: /home/rosdev/ros2_ws/build/realsense2_camera_msgs
+[1.816s] Invoked command in '/home/rosdev/ros2_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/yolo_ros:/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/realsense2_camera_msgs
+[1.817s] Invoking command in '/home/rosdev/ros2_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/yolo_ros:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/realsense2_camera_msgs -- -j12 -l12
+[1.884s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_generator_c[0m
+[1.912s] [  1%] Built target realsense2_camera_msgs__cpp
+[1.917s] [ 12%] Built target realsense2_camera_msgs__rosidl_generator_c
+[1.920s] [ 12%] Built target ament_cmake_python_symlink_realsense2_camera_msgs
+[1.934s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.935s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_cpp[0m
+[1.936s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.937s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.940s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_c[0m
+[1.946s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_introspection_c[0m
+[1.980s] [ 32%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp
+[1.982s] [ 43%] Built target realsense2_camera_msgs__rosidl_typesupport_c
+[1.990s] [ 47%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c
+[1.993s] [ 56%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp
+[1.993s] [ 67%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[1.993s] [ 78%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c
+[2.034s] [ 78%] Built target realsense2_camera_msgs
+[2.081s] [ 80%] Built target realsense2_camera_msgs__py
+[2.119s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_generator_py[0m
+[2.149s] [ 89%] Built target realsense2_camera_msgs__rosidl_generator_py
+[2.172s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.172s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[2.182s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_c__pyext[0m
+[2.201s] [ 92%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.208s] [ 96%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[2.212s] [100%] Built target realsense2_camera_msgs__rosidl_typesupport_c__pyext
+[2.286s] running egg_info
+[2.290s] writing realsense2_camera_msgs.egg-info/PKG-INFO
+[2.290s] writing dependency_links to realsense2_camera_msgs.egg-info/dependency_links.txt
+[2.290s] writing top-level names to realsense2_camera_msgs.egg-info/top_level.txt
+[2.293s] reading manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[2.294s] writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[2.368s] [100%] Built target ament_cmake_python_build_realsense2_camera_msgs_egg

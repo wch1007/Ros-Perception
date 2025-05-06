@@ -1,0 +1,28 @@
+{
+  "name": "ros2-humble-dev",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "USERNAME": "rosdev",
+      "UID": "1000",
+      "GID": "1000"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  },
+  "runArgs": [
+    "--net=host",
+    "--device=/dev/bus/usb",
+    "--privileged"
+  ],
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/home/rosdev/ros2_ws,type=bind"
+  ],
+  "workspaceFolder": "/home/rosdev/ros2_ws",
+  "remoteUser": "rosdev"
+}
