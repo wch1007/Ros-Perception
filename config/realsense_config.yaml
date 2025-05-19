@@ -1,0 +1,6 @@
+camera:
+  ros__parameters:
+    depth_module:
+      profile: 1280x720x30
+    rgb_camera:
+      profile: 1280x720x30

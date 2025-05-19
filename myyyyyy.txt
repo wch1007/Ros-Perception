@@ -1,0 +1,24 @@
+ros2 launch yolo_bringup yolo.launch.py \
+    use_3d:=True \
+    input_image_topic:=/zed/zed_node/left/image_rect_color \
+    input_depth_topic:=/zed/zed_node/depth/depth_registered \
+    input_depth_info_topic:=/zed/zed_node/depth/camera_info \
+    target_frame:=zed_left_camera_frame \
+    device:=CPU
+    
+
+rosdev@GIX-30258983:~/ros2_ws$ ros2 run tf2_tools view_frames
+[INFO] [1746917574.320435732] [view_frames]: Listening to tf data for 5.0 seconds...
+[INFO] [1746917579.359211158] [view_frames]: Generating graph in frames.pdf file...
+[INFO] [1746917579.364876150] [view_frames]: Result:tf2_msgs.srv.FrameGraph_Response(frame_yaml="camera_depth_frame: \n  parent: 'camera_link'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\ncamera_depth_optical_frame: \n  parent: 'camera_depth_frame'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\ncamera_color_frame: \n  parent: 'camera_link'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\ncamera_color_optical_frame: \n  parent: 'camera_color_frame'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\n")
+rosdev@GIX-30258983:~/ros2_ws$ 
+
+
+
+ros2 run tf2_tools view_frames
+
+rosdev@GIX-30258983:~/ros2_ws$ ros2 launch yolo_bringup yolo.launch.py input_image_topic:=/camera/color/image_rect_raw device:=CPU input_depth_topic:=/camer
+a/depth/image_rect_raw target_frame:=camera_link use_3d:=True
+
+ros2 run tf2_ros static_transform_publisher 1.0 0.0 1.2 0 0 0 map camera_link
+

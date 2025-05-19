@@ -1,3 +1,4 @@
+/home/rosdev/ros2_ws/install/yolo_bringup/share/yolo_bringup//launch/full_yolo_3d.launch.py
 /home/rosdev/ros2_ws/install/yolo_bringup/share/yolo_bringup//launch/yolo-world.launch.py
 /home/rosdev/ros2_ws/install/yolo_bringup/share/yolo_bringup//launch/yolo.launch.py
 /home/rosdev/ros2_ws/install/yolo_bringup/share/yolo_bringup//launch/yolov10.launch.py
