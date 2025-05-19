@@ -1,5 +1,22 @@
 # Perception517
 
+## Project Overview
+
+This project is a robotic perception system integrating ArUco marker detection and pose estimation based on RealSense cameras, YOLO object detection and 3D localization, and multi-frame transformation. The system enables accurate recognition and localization of objects in the workspace, and transforms target poses into the robot arm base frame for subsequent grasping and manipulation.
+
+## Developers
+
+- Chenghao Wang
+- Yifan Li
+- Xiny Hu
+
+## Main Features
+
+- ArUco marker detection and pose estimation
+- YOLO 2D/3D object detection
+- Coordinate transformation (camera, marker, arm base)
+- ROS2 multi-topic publishing and debugging tool integration
+- Visualization support with rqt_image_view and rviz2
 
 Workflow
 
@@ -449,7 +466,7 @@ data:
       y: 500.0
 ```
 
-### A single command that installs all commonly needed ROS 2 Humble packages for realsense2_camera, yolo_ros, and aruco_pose_estimation so you don’t have to chase them down one-by-one:
+### A single command that installs all commonly needed ROS 2 Humble packages for realsense2_camera, yolo_ros, and aruco_pose_estimation so you don't have to chase them down one-by-one:
 
 sudo apt update && sudo apt install -y \
   ros-humble-cv-bridge \
