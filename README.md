@@ -139,15 +139,19 @@ ros2 topic echo /arm/mimic_xyzrpt
 
 ```bash
 ros2 launch realsense2_camera rs_launch.py
-
-# 1 (👍) - 2d bbox
+```
+#### 1 (👍) - 2d bbox
+```bash
 ros2 launch yolo_bringup yolo.launch.py input_image_topic:=/camera/color/image_raw device:=CPU
-
-# 2 (👍) - 2d seg+bbox
+```
+#### 2 (👍) - 2d seg+bbox
+```bash
 ros2 launch yolo_bringup yolo.launch.py model:=yolov8m-seg input_image_topic:=/camera/color/image_raw device:=CPU 
-
-# 3 (👍) - 3d bbox
+```
+#### 3 (👍) - 3d bbox
+```bash
 ros2 launch yolo_bringup yolov8.launch.py input_image_topic:=/camera/color/image_raw device:=CPU input_depth_topic:=/camera/depth/image_rect_raw target_frame:=camera_link use_3d:=True
+```
 
 # rqt
 ros2 run rqt_image_view rqt_image_view
