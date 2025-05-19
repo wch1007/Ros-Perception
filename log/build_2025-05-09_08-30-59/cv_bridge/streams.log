@@ -1,0 +1,116 @@
+[0.065s] Invoking command in '/home/rosdev/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/cv_bridge
+[0.193s] -- The C compiler identification is GNU 11.4.0
+[0.304s] -- The CXX compiler identification is GNU 11.4.0
+[0.319s] -- Detecting C compiler ABI info
+[0.452s] -- Detecting C compiler ABI info - done
+[0.461s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.463s] -- Detecting C compile features
+[0.463s] -- Detecting C compile features - done
+[0.469s] -- Detecting CXX compiler ABI info
+[0.617s] -- Detecting CXX compiler ABI info - done
+[0.626s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.627s] -- Detecting CXX compile features
+[0.629s] -- Detecting CXX compile features - done
+[0.633s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.899s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.030s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.755s] -- Found Python3: /usr/include/python3.10 (found version "3.10.12") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[1.781s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: python310 
+[1.785s] -- Found rcpputils: 2.4.5 (/opt/ros/humble/share/rcpputils/cmake)
+[1.803s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.841s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.851s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.865s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.885s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.908s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.174s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[2.317s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[2.317s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[2.468s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[2.468s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[2.613s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[2.624s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.773s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.778s] -- Looking for pthread.h
+[2.962s] -- Looking for pthread.h - found
+[2.970s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.116s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.118s] -- Found Threads: TRUE  
+[5.197s] -- Configuring done
+[5.244s] -- Generating done
+[5.256s] -- Build files have been written to: /home/rosdev/ros2_ws/build/cv_bridge
+[5.284s] Invoked command in '/home/rosdev/ros2_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/cv_bridge
+[5.288s] Invoking command in '/home/rosdev/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/cv_bridge -- -j12 -l12
+[5.391s] [  0%] Built target ament_cmake_python_symlink_cv_bridge
+[5.426s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[11.181s] [ 12%] [32m[1mLinking CXX static library libgtest.a[0m
+[11.320s] [ 12%] Built target gtest
+[11.681s] running egg_info
+[11.683s] creating cv_bridge.egg-info
+[11.684s] writing cv_bridge.egg-info/PKG-INFO
+[11.685s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[11.685s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[11.686s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[11.691s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[11.693s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[11.773s] [ 12%] Built target ament_cmake_python_build_cv_bridge_egg
+[11.811s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[13.002s] [ 25%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[13.067s] [ 25%] Built target gtest_main
+[13.109s] [ 31%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o[0m
+[21.154s] [ 37%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o[0m
+[24.555s] [ 43%] [32m[1mLinking CXX shared library libcv_bridge.so[0m
+[24.863s] [ 43%] Built target cv_bridge
+[24.899s] [ 50%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o[0m
+[30.746s] [ 56%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o[0m
+[36.042s] [ 62%] [32m[1mLinking CXX shared module boost/cv_bridge_boost.so[0m
+[36.315s] [ 62%] Built target cv_bridge_boost
+[36.361s] [ 68%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o[0m
+[39.133s] [ 75%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o[0m
+[43.269s] [ 81%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o[0m
+[45.925s] [ 87%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o[0m
+[48.663s] [ 93%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o[0m
+[51.226s] [100%] [32m[1mLinking CXX executable cv_bridge-utest[0m
+[52.033s] [100%] Built target cv_bridge-utest
+[52.053s] Invoked command in '/home/rosdev/ros2_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/cv_bridge -- -j12 -l12
+[52.056s] Invoking command in '/home/rosdev/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/cv_bridge
+[52.067s] -- Install configuration: ""
+[52.068s] -- Execute custom install script
+[52.068s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[52.084s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[52.098s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/PKG-INFO
+[52.111s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/SOURCES.txt
+[52.124s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/dependency_links.txt
+[52.138s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/top_level.txt
+[52.153s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py
+[52.165s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/core.py
+[52.178s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h
+[52.193s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost//cv_bridge_boost.so
+[52.209s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h
+[52.223s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.h
+[52.236s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
+[52.251s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[52.264s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[52.279s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[52.292s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[52.310s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/environment/path.sh
+[52.322s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[52.338s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.bash
+[52.353s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.sh
+[52.367s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[52.380s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[52.395s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/package.dsv
+[52.409s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[52.424s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[52.439s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[52.454s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[52.471s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[52.485s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[52.505s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/package.xml
+[52.571s] Listing '/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge'...
+[52.572s] Compiling '/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py'...
+[52.572s] Listing '/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost'...
+[52.572s] Compiling '/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/core.py'...
+[52.583s] -- Installing: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake
+[52.583s] -- Installing: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake
+[52.589s] Invoked command in '/home/rosdev/ros2_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/cv_bridge

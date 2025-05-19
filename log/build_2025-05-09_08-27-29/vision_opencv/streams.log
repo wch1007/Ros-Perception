@@ -1,0 +1,39 @@
+[0.016s] Invoking command in '/home/rosdev/ros2_ws/build/vision_opencv': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/image_geometry:/home/rosdev/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/image_geometry:/home/rosdev/ros2_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/image_geometry/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rosdev/ros2_ws/src/vision_opencv/vision_opencv -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/vision_opencv
+[0.116s] -- The C compiler identification is GNU 11.4.0
+[0.204s] -- The CXX compiler identification is GNU 11.4.0
+[0.216s] -- Detecting C compiler ABI info
+[0.346s] -- Detecting C compiler ABI info - done
+[0.356s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.356s] -- Detecting C compile features
+[0.356s] -- Detecting C compile features - done
+[0.361s] -- Detecting CXX compiler ABI info
+[0.503s] -- Detecting CXX compiler ABI info - done
+[0.516s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.516s] -- Detecting CXX compile features
+[0.516s] -- Detecting CXX compile features - done
+[0.521s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.736s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.987s] -- Configuring done
+[0.991s] -- Generating done
+[0.994s] -- Build files have been written to: /home/rosdev/ros2_ws/build/vision_opencv
+[1.004s] Invoked command in '/home/rosdev/ros2_ws/build/vision_opencv' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/image_geometry:/home/rosdev/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/image_geometry:/home/rosdev/ros2_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/image_geometry/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rosdev/ros2_ws/src/vision_opencv/vision_opencv -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/vision_opencv
+[1.007s] Invoking command in '/home/rosdev/ros2_ws/build/vision_opencv': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/image_geometry:/home/rosdev/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/image_geometry:/home/rosdev/ros2_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/image_geometry/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosdev/ros2_ws/build/vision_opencv -- -j12 -l12
+[1.075s] Invoked command in '/home/rosdev/ros2_ws/build/vision_opencv' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/image_geometry:/home/rosdev/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/image_geometry:/home/rosdev/ros2_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/image_geometry/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosdev/ros2_ws/build/vision_opencv -- -j12 -l12
+[1.078s] Invoking command in '/home/rosdev/ros2_ws/build/vision_opencv': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/image_geometry:/home/rosdev/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/image_geometry:/home/rosdev/ros2_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/image_geometry/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rosdev/ros2_ws/build/vision_opencv
+[1.090s] -- Install configuration: ""
+[1.090s] -- Installing: /home/rosdev/ros2_ws/install/vision_opencv/share/ament_index/resource_index/package_run_dependencies/vision_opencv
+[1.090s] -- Installing: /home/rosdev/ros2_ws/install/vision_opencv/share/ament_index/resource_index/parent_prefix_path/vision_opencv
+[1.091s] -- Installing: /home/rosdev/ros2_ws/install/vision_opencv/share/vision_opencv/environment/ament_prefix_path.sh
+[1.091s] -- Installing: /home/rosdev/ros2_ws/install/vision_opencv/share/vision_opencv/environment/ament_prefix_path.dsv
+[1.091s] -- Installing: /home/rosdev/ros2_ws/install/vision_opencv/share/vision_opencv/environment/path.sh
+[1.091s] -- Installing: /home/rosdev/ros2_ws/install/vision_opencv/share/vision_opencv/environment/path.dsv
+[1.091s] -- Installing: /home/rosdev/ros2_ws/install/vision_opencv/share/vision_opencv/local_setup.bash
+[1.092s] -- Installing: /home/rosdev/ros2_ws/install/vision_opencv/share/vision_opencv/local_setup.sh
+[1.092s] -- Installing: /home/rosdev/ros2_ws/install/vision_opencv/share/vision_opencv/local_setup.zsh
+[1.092s] -- Installing: /home/rosdev/ros2_ws/install/vision_opencv/share/vision_opencv/local_setup.dsv
+[1.092s] -- Installing: /home/rosdev/ros2_ws/install/vision_opencv/share/vision_opencv/package.dsv
+[1.092s] -- Installing: /home/rosdev/ros2_ws/install/vision_opencv/share/ament_index/resource_index/packages/vision_opencv
+[1.093s] -- Installing: /home/rosdev/ros2_ws/install/vision_opencv/share/vision_opencv/cmake/vision_opencvConfig.cmake
+[1.093s] -- Installing: /home/rosdev/ros2_ws/install/vision_opencv/share/vision_opencv/cmake/vision_opencvConfig-version.cmake
+[1.093s] -- Installing: /home/rosdev/ros2_ws/install/vision_opencv/share/vision_opencv/package.xml
+[1.097s] Invoked command in '/home/rosdev/ros2_ws/build/vision_opencv' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/image_geometry:/home/rosdev/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/image_geometry:/home/rosdev/ros2_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/image_geometry/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rosdev/ros2_ws/build/vision_opencv

@@ -1,0 +1,58 @@
+[0.237s] Invoking command in '/home/rosdev/ros2_ws/build/tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/yolo_ros:/home/rosdev/ros2_ws/install/tf2_tools:/home/rosdev/ros2_ws/install/examples_tf2_py:/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/tf2 -- -j12 -l12
+[0.524s] [ 23%] Built target tf2
+[0.677s] [ 33%] Built target gtest
+[0.861s] [ 42%] Built target cache_benchmark
+[0.979s] [ 52%] Built target gtest_main
+[1.082s] [ 61%] Built target test_cache_unittest
+[1.342s] [ 71%] Built target test_storage
+[1.544s] [ 80%] Built target test_time
+[1.755s] [ 90%] Built target test_simple_tf2_core
+[1.877s] [100%] Built target test_static_cache_unittest
+[1.927s] Invoked command in '/home/rosdev/ros2_ws/build/tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/yolo_ros:/home/rosdev/ros2_ws/install/tf2_tools:/home/rosdev/ros2_ws/install/examples_tf2_py:/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/tf2 -- -j12 -l12
+[1.956s] Invoking command in '/home/rosdev/ros2_ws/build/tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/yolo_ros:/home/rosdev/ros2_ws/install/tf2_tools:/home/rosdev/ros2_ws/install/examples_tf2_py:/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/tf2
+[1.991s] -- Install configuration: ""
+[1.994s] -- Execute custom install script
+[1.995s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/include/tf2/tf2/LinearMath/Matrix3x3.h
+[1.996s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/include/tf2/tf2/LinearMath/MinMax.h
+[1.996s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/include/tf2/tf2/LinearMath/QuadWord.h
+[1.997s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/include/tf2/tf2/LinearMath/Quaternion.h
+[1.997s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/include/tf2/tf2/LinearMath/Scalar.h
+[1.999s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/include/tf2/tf2/LinearMath/Transform.h
+[1.999s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/include/tf2/tf2/LinearMath/Vector3.h
+[1.999s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/include/tf2/tf2/buffer_core.h
+[2.000s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/include/tf2/tf2/buffer_core_interface.h
+[2.000s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/include/tf2/tf2/convert.h
+[2.000s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/include/tf2/tf2/exceptions.h
+[2.000s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/include/tf2/tf2/impl/convert.h
+[2.000s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/include/tf2/tf2/impl/utils.h
+[2.000s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/include/tf2/tf2/time.h
+[2.000s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/include/tf2/tf2/time_cache.h
+[2.000s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/include/tf2/tf2/transform_datatypes.h
+[2.000s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/include/tf2/tf2/transform_storage.h
+[2.000s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/include/tf2/tf2/utils.h
+[2.000s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/include/tf2/tf2/visibility_control.h
+[2.000s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/share/tf2/environment/library_path.sh
+[2.001s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/share/tf2/environment/library_path.dsv
+[2.001s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/share/ament_index/resource_index/package_run_dependencies/tf2
+[2.002s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/share/ament_index/resource_index/parent_prefix_path/tf2
+[2.003s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/share/tf2/environment/ament_prefix_path.sh
+[2.004s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/share/tf2/environment/ament_prefix_path.dsv
+[2.007s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/share/tf2/environment/path.sh
+[2.007s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/share/tf2/environment/path.dsv
+[2.007s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/share/tf2/local_setup.bash
+[2.008s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/share/tf2/local_setup.sh
+[2.008s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/share/tf2/local_setup.zsh
+[2.008s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/share/tf2/local_setup.dsv
+[2.008s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2/share/tf2/package.dsv
+[2.076s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/share/ament_index/resource_index/packages/tf2
+[2.076s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/share/tf2/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.076s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/share/tf2/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.076s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/share/tf2/cmake/ament_cmake_export_libraries-extras.cmake
+[2.076s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/share/tf2/cmake/ament_cmake_export_targets-extras.cmake
+[2.077s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/share/tf2/cmake/tf2Config.cmake
+[2.077s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/share/tf2/cmake/tf2Config-version.cmake
+[2.077s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2/share/tf2/package.xml
+[2.077s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2/lib/libtf2.so
+[2.077s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2/share/tf2/cmake/export_tf2Export.cmake
+[2.077s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2/share/tf2/cmake/export_tf2Export-noconfig.cmake
+[2.096s] Invoked command in '/home/rosdev/ros2_ws/build/tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/yolo_ros:/home/rosdev/ros2_ws/install/tf2_tools:/home/rosdev/ros2_ws/install/examples_tf2_py:/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/tf2

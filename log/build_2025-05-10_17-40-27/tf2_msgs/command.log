@@ -1,0 +1,6 @@
+Invoking command in '/home/rosdev/ros2_ws/build/tf2_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/geometry2/tf2_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/tf2_msgs
+Invoked command in '/home/rosdev/ros2_ws/build/tf2_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/geometry2/tf2_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/tf2_msgs
+Invoking command in '/home/rosdev/ros2_ws/build/tf2_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/tf2_msgs -- -j12 -l12
+Invoked command in '/home/rosdev/ros2_ws/build/tf2_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/tf2_msgs -- -j12 -l12
+Invoking command in '/home/rosdev/ros2_ws/build/tf2_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/tf2_msgs
+Invoked command in '/home/rosdev/ros2_ws/build/tf2_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/tf2_msgs

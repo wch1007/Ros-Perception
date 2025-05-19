@@ -1,0 +1,21 @@
+[1.387s] Invoking command in '/home/rosdev/ros2_ws/build/opencv_tests': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/cv_bridge LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rosdev/ros2_ws/build/opencv_tests/build --no-deps symlink_data --force
+[1.771s] running develop
+[1.942s] running egg_info
+[1.942s] writing opencv_tests.egg-info/PKG-INFO
+[1.944s] writing dependency_links to opencv_tests.egg-info/dependency_links.txt
+[1.945s] writing entry points to opencv_tests.egg-info/entry_points.txt
+[1.946s] writing requirements to opencv_tests.egg-info/requires.txt
+[1.946s] writing top-level names to opencv_tests.egg-info/top_level.txt
+[1.950s] reading manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[1.952s] writing manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[1.955s] running build_ext
+[1.956s] Creating /home/rosdev/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv-tests.egg-link (link to .)
+[1.959s] Installing broadcast script to /home/rosdev/ros2_ws/install/opencv_tests/lib/opencv_tests
+[1.959s] Installing rosfacedetect script to /home/rosdev/ros2_ws/install/opencv_tests/lib/opencv_tests
+[1.959s] Installing source script to /home/rosdev/ros2_ws/install/opencv_tests/lib/opencv_tests
+[1.960s] 
+[1.960s] Installed /home/rosdev/ros2_ws/build/opencv_tests
+[1.960s] running symlink_data
+[1.960s] symbolically linking /home/rosdev/ros2_ws/build/opencv_tests/resource/opencv_tests -> /home/rosdev/ros2_ws/install/opencv_tests/share/ament_index/resource_index/packages
+[1.961s] symbolically linking /home/rosdev/ros2_ws/build/opencv_tests/package.xml -> /home/rosdev/ros2_ws/install/opencv_tests/share/opencv_tests
+[2.327s] Invoked command in '/home/rosdev/ros2_ws/build/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/cv_bridge LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rosdev/ros2_ws/build/opencv_tests/build --no-deps symlink_data --force

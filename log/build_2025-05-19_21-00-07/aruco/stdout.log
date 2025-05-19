@@ -1,0 +1,57 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found cv_bridge: 3.2.1 (/home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/cmake)
+-- Found tf2_ros: 0.25.7 (/home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found realsense2_camera: 4.54.1 (/home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rosdev/ros2_ws/build/aruco
+Built target ament_cmake_python_copy_aruco
+running egg_info
+creating aruco.egg-info
+writing aruco.egg-info/PKG-INFO
+writing dependency_links to aruco.egg-info/dependency_links.txt
+writing top-level names to aruco.egg-info/top_level.txt
+writing manifest file 'aruco.egg-info/SOURCES.txt'
+reading manifest file 'aruco.egg-info/SOURCES.txt'
+writing manifest file 'aruco.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_aruco_egg
+-- Install configuration: ""
+-- Installing: /home/rosdev/ros2_ws/install/aruco/share/aruco/environment/pythonpath.sh
+-- Installing: /home/rosdev/ros2_ws/install/aruco/share/aruco/environment/pythonpath.dsv
+-- Installing: /home/rosdev/ros2_ws/install/aruco/local/lib/python3.10/dist-packages/aruco-0.0.1-py3.10.egg-info
+-- Installing: /home/rosdev/ros2_ws/install/aruco/local/lib/python3.10/dist-packages/aruco-0.0.1-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/rosdev/ros2_ws/install/aruco/local/lib/python3.10/dist-packages/aruco-0.0.1-py3.10.egg-info/PKG-INFO
+-- Installing: /home/rosdev/ros2_ws/install/aruco/local/lib/python3.10/dist-packages/aruco-0.0.1-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/rosdev/ros2_ws/install/aruco/local/lib/python3.10/dist-packages/aruco-0.0.1-py3.10.egg-info/top_level.txt
+-- Installing: /home/rosdev/ros2_ws/install/aruco/local/lib/python3.10/dist-packages/aruco
+-- Installing: /home/rosdev/ros2_ws/install/aruco/local/lib/python3.10/dist-packages/aruco/__init__.py
+Listing '/home/rosdev/ros2_ws/install/aruco/local/lib/python3.10/dist-packages/aruco'...
+Compiling '/home/rosdev/ros2_ws/install/aruco/local/lib/python3.10/dist-packages/aruco/__init__.py'...
+-- Installing: /home/rosdev/ros2_ws/install/aruco/lib/aruco/aruco_detection.py
+-- Installing: /home/rosdev/ros2_ws/install/aruco/lib/aruco/aruco_opencv.py
+-- Installing: /home/rosdev/ros2_ws/install/aruco/share/aruco/launch
+-- Installing: /home/rosdev/ros2_ws/install/aruco/share/ament_index/resource_index/package_run_dependencies/aruco
+-- Installing: /home/rosdev/ros2_ws/install/aruco/share/ament_index/resource_index/parent_prefix_path/aruco
+-- Installing: /home/rosdev/ros2_ws/install/aruco/share/aruco/environment/ament_prefix_path.sh
+-- Installing: /home/rosdev/ros2_ws/install/aruco/share/aruco/environment/ament_prefix_path.dsv
+-- Installing: /home/rosdev/ros2_ws/install/aruco/share/aruco/environment/path.sh
+-- Installing: /home/rosdev/ros2_ws/install/aruco/share/aruco/environment/path.dsv
+-- Installing: /home/rosdev/ros2_ws/install/aruco/share/aruco/local_setup.bash
+-- Installing: /home/rosdev/ros2_ws/install/aruco/share/aruco/local_setup.sh
+-- Installing: /home/rosdev/ros2_ws/install/aruco/share/aruco/local_setup.zsh
+-- Installing: /home/rosdev/ros2_ws/install/aruco/share/aruco/local_setup.dsv
+-- Installing: /home/rosdev/ros2_ws/install/aruco/share/aruco/package.dsv
+-- Installing: /home/rosdev/ros2_ws/install/aruco/share/ament_index/resource_index/packages/aruco
+-- Installing: /home/rosdev/ros2_ws/install/aruco/share/aruco/cmake/arucoConfig.cmake
+-- Installing: /home/rosdev/ros2_ws/install/aruco/share/aruco/cmake/arucoConfig-version.cmake
+-- Installing: /home/rosdev/ros2_ws/install/aruco/share/aruco/package.xml

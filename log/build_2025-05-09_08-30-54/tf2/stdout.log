@@ -1,0 +1,9 @@
+[ 23%] Built target tf2
+[ 33%] Built target gtest
+[ 42%] Built target cache_benchmark
+[ 52%] Built target gtest_main
+[ 61%] Built target test_cache_unittest
+[ 71%] Built target test_storage
+[ 80%] Built target test_time
+[ 90%] Built target test_simple_tf2_core
+[100%] Built target test_static_cache_unittest

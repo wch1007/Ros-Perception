@@ -1,0 +1,19 @@
+[1.542s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_tools': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2 LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/tf2_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/tf2_tools/lib/python3.10/site-packages:/home/rosdev/ros2_ws/build/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rosdev/ros2_ws/build/tf2_tools/build --no-deps symlink_data --force
+[1.945s] running develop
+[2.127s] running egg_info
+[2.127s] writing tf2_tools.egg-info/PKG-INFO
+[2.128s] writing dependency_links to tf2_tools.egg-info/dependency_links.txt
+[2.128s] writing entry points to tf2_tools.egg-info/entry_points.txt
+[2.129s] writing requirements to tf2_tools.egg-info/requires.txt
+[2.129s] writing top-level names to tf2_tools.egg-info/top_level.txt
+[2.133s] reading manifest file 'tf2_tools.egg-info/SOURCES.txt'
+[2.134s] writing manifest file 'tf2_tools.egg-info/SOURCES.txt'
+[2.138s] running build_ext
+[2.138s] Creating /home/rosdev/ros2_ws/install/tf2_tools/lib/python3.10/site-packages/tf2-tools.egg-link (link to .)
+[2.140s] Installing view_frames script to /home/rosdev/ros2_ws/install/tf2_tools/lib/tf2_tools
+[2.141s] 
+[2.141s] Installed /home/rosdev/ros2_ws/build/tf2_tools
+[2.141s] running symlink_data
+[2.142s] symbolically linking /home/rosdev/ros2_ws/build/tf2_tools/resource/tf2_tools -> /home/rosdev/ros2_ws/install/tf2_tools/share/ament_index/resource_index/packages
+[2.142s] symbolically linking /home/rosdev/ros2_ws/build/tf2_tools/package.xml -> /home/rosdev/ros2_ws/install/tf2_tools/share/tf2_tools
+[2.240s] Invoked command in '/home/rosdev/ros2_ws/build/tf2_tools' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2 LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/tf2_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/tf2_tools/lib/python3.10/site-packages:/home/rosdev/ros2_ws/build/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rosdev/ros2_ws/build/tf2_tools/build --no-deps symlink_data --force

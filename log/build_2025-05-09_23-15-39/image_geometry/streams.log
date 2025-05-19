@@ -1,0 +1,69 @@
+[0.061s] Invoking command in '/home/rosdev/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/vision_opencv/image_geometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/image_geometry
+[0.081s] -- Found ament_cmake_python: 1.3.11 (/opt/ros/humble/share/ament_cmake_python/cmake)
+[0.081s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.299s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.435s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.468s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.472s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.481s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.497s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.518s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.603s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.769s] -- Configuring done
+[0.800s] -- Generating done
+[0.811s] -- Build files have been written to: /home/rosdev/ros2_ws/build/image_geometry
+[0.826s] Invoked command in '/home/rosdev/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/vision_opencv/image_geometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/image_geometry
+[0.830s] Invoking command in '/home/rosdev/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/image_geometry -- -j12 -l12
+[0.924s] [35m[1mConsolidate compiler generated dependencies of target image_geometry[0m
+[0.940s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.954s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.964s] [ 33%] Built target image_geometry
+[0.970s] [ 33%] Built target ament_cmake_python_symlink_image_geometry
+[0.976s] [ 55%] Built target gtest_main
+[0.983s] [ 77%] Built target gtest
+[1.001s] [35m[1mConsolidate compiler generated dependencies of target image_geometry-utest[0m
+[1.039s] [100%] Built target image_geometry-utest
+[1.355s] running egg_info
+[1.358s] writing image_geometry.egg-info/PKG-INFO
+[1.360s] writing dependency_links to image_geometry.egg-info/dependency_links.txt
+[1.360s] writing top-level names to image_geometry.egg-info/top_level.txt
+[1.365s] reading manifest file 'image_geometry.egg-info/SOURCES.txt'
+[1.366s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[1.450s] [100%] Built target ament_cmake_python_build_image_geometry_egg
+[1.483s] Invoked command in '/home/rosdev/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/image_geometry -- -j12 -l12
+[1.485s] Invoking command in '/home/rosdev/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/image_geometry
+[1.495s] -- Install configuration: ""
+[1.496s] -- Execute custom install script
+[1.497s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[1.497s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[1.498s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/PKG-INFO
+[1.498s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/SOURCES.txt
+[1.498s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/dependency_links.txt
+[1.498s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/top_level.txt
+[1.499s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/__init__.py
+[1.499s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/cameramodels.py
+[1.500s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/include/image_geometry/image_geometry/pinhole_camera_model.h
+[1.500s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/include/image_geometry/image_geometry/stereo_camera_model.h
+[1.500s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/include/image_geometry/image_geometry/visibility_control.hpp
+[1.500s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[1.500s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[1.500s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[1.501s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[1.501s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/share/image_geometry/environment/path.sh
+[1.501s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/share/image_geometry/environment/path.dsv
+[1.501s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/share/image_geometry/local_setup.bash
+[1.501s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/share/image_geometry/local_setup.sh
+[1.502s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/share/image_geometry/local_setup.zsh
+[1.502s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/share/image_geometry/local_setup.dsv
+[1.502s] -- Symlinking: /home/rosdev/ros2_ws/install/image_geometry/share/image_geometry/package.dsv
+[1.519s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[1.520s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_targets-extras.cmake
+[1.520s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.520s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[1.520s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[1.520s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/image_geometry/share/image_geometry/package.xml
+[1.586s] Listing '/home/rosdev/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry'...
+[1.598s] -- Up-to-date: /home/rosdev/ros2_ws/install/image_geometry/lib/libimage_geometry.so
+[1.599s] -- Up-to-date: /home/rosdev/ros2_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport.cmake
+[1.599s] -- Up-to-date: /home/rosdev/ros2_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport-noconfig.cmake
+[1.613s] Invoked command in '/home/rosdev/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/image_geometry

@@ -1,0 +1,20 @@
+[1.645s] Invoking command in '/home/rosdev/ros2_ws/build/aruco_realsense_ros': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/cv_bridge:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/aruco_realsense_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/aruco_realsense_ros/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rosdev/ros2_ws/build/aruco_realsense_ros/build --no-deps symlink_data --force
+[2.206s] running develop
+[2.399s] running egg_info
+[2.399s] writing aruco_realsense_ros.egg-info/PKG-INFO
+[2.400s] writing dependency_links to aruco_realsense_ros.egg-info/dependency_links.txt
+[2.400s] writing entry points to aruco_realsense_ros.egg-info/entry_points.txt
+[2.401s] writing requirements to aruco_realsense_ros.egg-info/requires.txt
+[2.401s] writing top-level names to aruco_realsense_ros.egg-info/top_level.txt
+[2.404s] reading manifest file 'aruco_realsense_ros.egg-info/SOURCES.txt'
+[2.407s] writing manifest file 'aruco_realsense_ros.egg-info/SOURCES.txt'
+[2.412s] running build_ext
+[2.414s] Creating /home/rosdev/ros2_ws/install/aruco_realsense_ros/lib/python3.10/site-packages/aruco-realsense-ros.egg-link (link to .)
+[2.418s] Installing aruco_node script to /home/rosdev/ros2_ws/install/aruco_realsense_ros/lib/aruco_realsense_ros
+[2.421s] 
+[2.421s] Installed /home/rosdev/ros2_ws/build/aruco_realsense_ros
+[2.422s] running symlink_data
+[2.423s] symbolically linking /home/rosdev/ros2_ws/build/aruco_realsense_ros/resource/aruco_realsense_ros -> /home/rosdev/ros2_ws/install/aruco_realsense_ros/share/ament_index/resource_index/packages
+[2.424s] symbolically linking /home/rosdev/ros2_ws/build/aruco_realsense_ros/package.xml -> /home/rosdev/ros2_ws/install/aruco_realsense_ros/share/aruco_realsense_ros
+[2.427s] symbolically linking /home/rosdev/ros2_ws/build/aruco_realsense_ros/aruco_realsense_ros/aruco.rviz -> /home/rosdev/ros2_ws/install/aruco_realsense_ros/share/aruco_realsense_ros
+[2.541s] Invoked command in '/home/rosdev/ros2_ws/build/aruco_realsense_ros' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/cv_bridge:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/aruco_realsense_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/aruco_realsense_ros/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rosdev/ros2_ws/build/aruco_realsense_ros/build --no-deps symlink_data --force

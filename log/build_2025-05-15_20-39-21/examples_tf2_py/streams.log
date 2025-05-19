@@ -1,0 +1,26 @@
+[1.516s] Invoking command in '/home/rosdev/ros2_ws/src/geometry2/examples_tf2_py': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2 LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/examples_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/examples_tf2_py build --build-base /home/rosdev/ros2_ws/build/examples_tf2_py/build install --record /home/rosdev/ros2_ws/build/examples_tf2_py/install.log --single-version-externally-managed install_data
+[1.871s] running egg_info
+[1.875s] writing ../../../build/examples_tf2_py/examples_tf2_py.egg-info/PKG-INFO
+[1.876s] writing dependency_links to ../../../build/examples_tf2_py/examples_tf2_py.egg-info/dependency_links.txt
+[1.876s] writing entry points to ../../../build/examples_tf2_py/examples_tf2_py.egg-info/entry_points.txt
+[1.876s] writing requirements to ../../../build/examples_tf2_py/examples_tf2_py.egg-info/requires.txt
+[1.876s] writing top-level names to ../../../build/examples_tf2_py/examples_tf2_py.egg-info/top_level.txt
+[1.877s] reading manifest file '../../../build/examples_tf2_py/examples_tf2_py.egg-info/SOURCES.txt'
+[1.879s] writing manifest file '../../../build/examples_tf2_py/examples_tf2_py.egg-info/SOURCES.txt'
+[1.883s] running build
+[1.883s] running build_py
+[1.884s] running install
+[1.884s] running install_lib
+[1.884s] running install_data
+[1.885s] running install_egg_info
+[1.889s] removing '/home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages/examples_tf2_py-0.25.7-py3.10.egg-info' (and everything under it)
+[1.890s] Copying ../../../build/examples_tf2_py/examples_tf2_py.egg-info to /home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages/examples_tf2_py-0.25.7-py3.10.egg-info
+[1.894s] running install_scripts
+[1.937s] Installing async_waits_for_transform script to /home/rosdev/ros2_ws/install/examples_tf2_py/lib/examples_tf2_py
+[1.937s] Installing blocking_waits_for_transform script to /home/rosdev/ros2_ws/install/examples_tf2_py/lib/examples_tf2_py
+[1.938s] Installing dynamic_broadcaster script to /home/rosdev/ros2_ws/install/examples_tf2_py/lib/examples_tf2_py
+[1.938s] Installing frame_dumper script to /home/rosdev/ros2_ws/install/examples_tf2_py/lib/examples_tf2_py
+[1.938s] Installing static_broadcaster script to /home/rosdev/ros2_ws/install/examples_tf2_py/lib/examples_tf2_py
+[1.938s] Installing waits_for_transform script to /home/rosdev/ros2_ws/install/examples_tf2_py/lib/examples_tf2_py
+[1.939s] writing list of installed files to '/home/rosdev/ros2_ws/build/examples_tf2_py/install.log'
+[2.022s] Invoked command in '/home/rosdev/ros2_ws/src/geometry2/examples_tf2_py' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2 LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/examples_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/examples_tf2_py build --build-base /home/rosdev/ros2_ws/build/examples_tf2_py/build install --record /home/rosdev/ros2_ws/build/examples_tf2_py/install.log --single-version-externally-managed install_data

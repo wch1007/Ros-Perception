@@ -1,0 +1,3 @@
+[console_scripts]
+transform_detections = yolov8_tf_node.transform_detections:main
+

@@ -1,0 +1,3 @@
+[console_scripts]
+aruco_realsense = aruco.aruco_realsense:main
+

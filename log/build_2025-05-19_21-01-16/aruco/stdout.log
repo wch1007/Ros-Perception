@@ -1,0 +1,37 @@
+Built target ament_cmake_python_copy_aruco
+running egg_info
+writing aruco.egg-info/PKG-INFO
+writing dependency_links to aruco.egg-info/dependency_links.txt
+writing top-level names to aruco.egg-info/top_level.txt
+reading manifest file 'aruco.egg-info/SOURCES.txt'
+writing manifest file 'aruco.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_aruco_egg
+-- Install configuration: ""
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/share/aruco/environment/pythonpath.sh
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/share/aruco/environment/pythonpath.dsv
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/local/lib/python3.10/dist-packages/aruco-0.0.1-py3.10.egg-info
+-- Installing: /home/rosdev/ros2_ws/install/aruco/local/lib/python3.10/dist-packages/aruco-0.0.1-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/rosdev/ros2_ws/install/aruco/local/lib/python3.10/dist-packages/aruco-0.0.1-py3.10.egg-info/PKG-INFO
+-- Installing: /home/rosdev/ros2_ws/install/aruco/local/lib/python3.10/dist-packages/aruco-0.0.1-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/rosdev/ros2_ws/install/aruco/local/lib/python3.10/dist-packages/aruco-0.0.1-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/local/lib/python3.10/dist-packages/aruco
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/local/lib/python3.10/dist-packages/aruco/__init__.py
+Listing '/home/rosdev/ros2_ws/install/aruco/local/lib/python3.10/dist-packages/aruco'...
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/lib/aruco/aruco_detection.py
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/lib/aruco/aruco_opencv.py
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/share/aruco/launch
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/share/ament_index/resource_index/package_run_dependencies/aruco
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/share/ament_index/resource_index/parent_prefix_path/aruco
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/share/aruco/environment/ament_prefix_path.sh
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/share/aruco/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/share/aruco/environment/path.sh
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/share/aruco/environment/path.dsv
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/share/aruco/local_setup.bash
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/share/aruco/local_setup.sh
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/share/aruco/local_setup.zsh
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/share/aruco/local_setup.dsv
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/share/aruco/package.dsv
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/share/ament_index/resource_index/packages/aruco
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/share/aruco/cmake/arucoConfig.cmake
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/share/aruco/cmake/arucoConfig-version.cmake
+-- Up-to-date: /home/rosdev/ros2_ws/install/aruco/share/aruco/package.xml

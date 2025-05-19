@@ -1,0 +1,10 @@
+[0.022s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_bullet': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosdev/ros2_ws/build/tf2_bullet -- -j12 -l12
+[0.114s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.341s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.404s] [ 33%] Built target gtest_main
+[1.449s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[6.607s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[6.721s] [ 66%] Built target gtest
+[6.759s] [ 83%] [32mBuilding CXX object CMakeFiles/test_bullet.dir/test/test_tf2_bullet.cpp.o[0m
+[13.356s] [100%] [32m[1mLinking CXX executable test_bullet[0m
+[13.704s] [100%] Built target test_bullet

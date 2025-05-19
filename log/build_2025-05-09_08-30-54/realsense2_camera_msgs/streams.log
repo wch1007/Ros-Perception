@@ -1,0 +1,6 @@
+[0.044s] Invoking command in '/home/rosdev/ros2_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/realsense2_camera_msgs -- -j12 -l12
+[0.159s] [  1%] Built target realsense2_camera_msgs__cpp
+[0.199s] failed to create symbolic link '/home/rosdev/ros2_ws/build/realsense2_camera_msgs/ament_cmake_python/realsense2_camera_msgs/realsense2_camera_msgs' because existing path cannot be removed: Is a directory
+[0.201s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_realsense2_camera_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_realsense2_camera_msgs] Error 1
+[0.201s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_realsense2_camera_msgs.dir/all] Error 2
+[0.201s] gmake: *** [Makefile:146: all] Error 2

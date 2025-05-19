@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info/PKG-INFO
+../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info/SOURCES.txt
+../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info/dependency_links.txt
+../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info/entry_points.txt
+../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info/requires.txt
+../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info/top_level.txt
+../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info/zip-safe
+aruco_realsense_ros/__init__.py
+aruco_realsense_ros/aruco.rviz
+aruco_realsense_ros/aruco_node.py
+resource/aruco_realsense_ros
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,20 @@
+[0.058s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_kdl': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosdev/ros2_ws/build/tf2_kdl -- -j12 -l12
+[0.513s] [  0%] Built target ament_cmake_python_copy_tf2_kdl
+[0.513s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.389s] [ 33%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.495s] [ 33%] Built target gtest
+[5.831s] running egg_info
+[5.832s] creating tf2_kdl.egg-info
+[5.833s] writing tf2_kdl.egg-info/PKG-INFO
+[5.833s] writing dependency_links to tf2_kdl.egg-info/dependency_links.txt
+[5.833s] writing top-level names to tf2_kdl.egg-info/top_level.txt
+[5.833s] writing manifest file 'tf2_kdl.egg-info/SOURCES.txt'
+[5.837s] reading manifest file 'tf2_kdl.egg-info/SOURCES.txt'
+[5.843s] writing manifest file 'tf2_kdl.egg-info/SOURCES.txt'
+[5.911s] [ 33%] Built target ament_cmake_python_build_tf2_kdl_egg
+[5.947s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[7.102s] [ 66%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[7.162s] [ 66%] Built target gtest_main
+[7.199s] [ 83%] [32mBuilding CXX object CMakeFiles/test_kdl.dir/test/test_tf2_kdl.cpp.o[0m
+[16.807s] [100%] [32m[1mLinking CXX executable test_kdl[0m
+[17.706s] [100%] Built target test_kdl

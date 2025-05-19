@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: aruco-realsense-ros
+Version: 0.0.0
+Summary: ROS2 node for ArUco marker detection using RealSense camera
+Home-page: UNKNOWN
+Maintainer: rosdev
+Maintainer-email: rosdev@todo.todo
+License: Apache License 2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

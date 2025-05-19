@@ -1,0 +1,68 @@
+[0.195s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_ros': CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/yolo_bringup:/home/rosdev/ros2_ws/install/yolo_msgs:/home/rosdev/ros2_ws/install/vision_opencv:/home/rosdev/ros2_ws/install/geometry2:/home/rosdev/ros2_ws/install/tf2_sensor_msgs:/home/rosdev/ros2_ws/install/test_tf2:/home/rosdev/ros2_ws/install/tf2_kdl:/home/rosdev/ros2_ws/install/tf2_geometry_msgs:/home/rosdev/ros2_ws/install/tf2_eigen:/home/rosdev/ros2_ws/install/tf2_bullet:/home/rosdev/ros2_ws/install/realsense2_camera:/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_eigen_kdl:/home/rosdev/ros2_ws/install/realsense2_description:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/image_geometry:/home/rosdev/ros2_ws/install/cv_bridge:/home/rosdev/ros2_ws/install/yolov8_tf_node:/home/rosdev/ros2_ws/install/yolo_ros:/home/rosdev/ros2_ws/install/tf2_tools:/home/rosdev/ros2_ws/install/examples_tf2_py:/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/aruco_realsense_ros:/home/rosdev/ros2_ws/install/opencv_tests:/home/rosdev/ros2_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:/home/rosdev/ros2_ws/install/yolo_msgs/lib:/home/rosdev/ros2_ws/install/realsense2_camera/lib:/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_eigen_kdl/lib:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/lib:/home/rosdev/ros2_ws/install/image_geometry/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/rosdev/ros2_ws/build/tf2_ros -- -j12 -l12
+[1.115s] [  5%] Built target gtest_main
+[1.115s] [ 10%] Built target gtest
+[1.115s] [ 30%] Built target tf2_ros
+[1.116s] [ 35%] Built target tf2_monitor
+[1.116s] [ 40%] Built target tf2_echo
+[1.116s] [ 47%] Built target buffer_server
+[1.116s] [ 50%] Built target static_transform_broadcaster_node
+[1.116s] [ 55%] Built target test_buffer
+[1.116s] [ 60%] Built target test_buffer_client
+[1.116s] [ 65%] Built target test_buffer_server
+[1.116s] [ 70%] Built target tf2_ros_test_message_filter
+[1.116s] [ 75%] Built target tf2_ros_test_transform_listener
+[1.116s] [ 85%] Built target tf2_ros_test_static_transform_broadcaster
+[1.116s] [ 85%] Built target tf2_ros_test_transform_broadcaster
+[1.117s] [ 90%] Built target tf2_ros_test_time_reset
+[1.117s] [ 95%] Built target tf2_ros_test_listener
+[1.117s] [100%] Built target static_transform_publisher
+[1.129s] Invoked command in '/home/rosdev/ros2_ws/build/tf2_ros' returned '0': CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/yolo_bringup:/home/rosdev/ros2_ws/install/yolo_msgs:/home/rosdev/ros2_ws/install/vision_opencv:/home/rosdev/ros2_ws/install/geometry2:/home/rosdev/ros2_ws/install/tf2_sensor_msgs:/home/rosdev/ros2_ws/install/test_tf2:/home/rosdev/ros2_ws/install/tf2_kdl:/home/rosdev/ros2_ws/install/tf2_geometry_msgs:/home/rosdev/ros2_ws/install/tf2_eigen:/home/rosdev/ros2_ws/install/tf2_bullet:/home/rosdev/ros2_ws/install/realsense2_camera:/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_eigen_kdl:/home/rosdev/ros2_ws/install/realsense2_description:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/image_geometry:/home/rosdev/ros2_ws/install/cv_bridge:/home/rosdev/ros2_ws/install/yolov8_tf_node:/home/rosdev/ros2_ws/install/yolo_ros:/home/rosdev/ros2_ws/install/tf2_tools:/home/rosdev/ros2_ws/install/examples_tf2_py:/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/aruco_realsense_ros:/home/rosdev/ros2_ws/install/opencv_tests:/home/rosdev/ros2_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:/home/rosdev/ros2_ws/install/yolo_msgs/lib:/home/rosdev/ros2_ws/install/realsense2_camera/lib:/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_eigen_kdl/lib:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/lib:/home/rosdev/ros2_ws/install/image_geometry/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/rosdev/ros2_ws/build/tf2_ros -- -j12 -l12
+[1.135s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_ros': CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/yolo_bringup:/home/rosdev/ros2_ws/install/yolo_msgs:/home/rosdev/ros2_ws/install/vision_opencv:/home/rosdev/ros2_ws/install/geometry2:/home/rosdev/ros2_ws/install/tf2_sensor_msgs:/home/rosdev/ros2_ws/install/test_tf2:/home/rosdev/ros2_ws/install/tf2_kdl:/home/rosdev/ros2_ws/install/tf2_geometry_msgs:/home/rosdev/ros2_ws/install/tf2_eigen:/home/rosdev/ros2_ws/install/tf2_bullet:/home/rosdev/ros2_ws/install/realsense2_camera:/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_eigen_kdl:/home/rosdev/ros2_ws/install/realsense2_description:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/image_geometry:/home/rosdev/ros2_ws/install/cv_bridge:/home/rosdev/ros2_ws/install/yolov8_tf_node:/home/rosdev/ros2_ws/install/yolo_ros:/home/rosdev/ros2_ws/install/tf2_tools:/home/rosdev/ros2_ws/install/examples_tf2_py:/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/aruco_realsense_ros:/home/rosdev/ros2_ws/install/opencv_tests:/home/rosdev/ros2_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:/home/rosdev/ros2_ws/install/yolo_msgs/lib:/home/rosdev/ros2_ws/install/realsense2_camera/lib:/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_eigen_kdl/lib:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/lib:/home/rosdev/ros2_ws/install/image_geometry/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/rosdev/ros2_ws/build/tf2_ros
+[1.630s] -- Install configuration: ""
+[1.636s] -- Execute custom install script
+[1.637s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/lib/tf2_ros/buffer_server
+[1.637s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/lib/tf2_ros/static_transform_publisher
+[1.637s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/lib/tf2_ros/tf2_echo
+[1.637s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/lib/tf2_ros/tf2_monitor
+[1.637s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/async_buffer_interface.h
+[1.637s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer.h
+[1.638s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer_client.h
+[1.638s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer_interface.h
+[1.638s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer_server.h
+[1.638s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/create_timer_interface.h
+[1.638s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/create_timer_ros.h
+[1.638s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/message_filter.h
+[1.638s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/qos.hpp
+[1.638s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/static_transform_broadcaster.h
+[1.638s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/static_transform_broadcaster_node.hpp
+[1.638s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/static_transform_broadcaster_visibility_control.h
+[1.638s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/transform_broadcaster.h
+[1.639s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/transform_listener.h
+[1.639s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/visibility_control.h
+[1.639s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/environment/library_path.sh
+[1.639s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/environment/library_path.dsv
+[1.639s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/ament_index/resource_index/package_run_dependencies/tf2_ros
+[1.639s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/ament_index/resource_index/parent_prefix_path/tf2_ros
+[1.639s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/environment/ament_prefix_path.sh
+[1.639s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/environment/ament_prefix_path.dsv
+[1.639s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/environment/path.sh
+[1.639s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/environment/path.dsv
+[1.639s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/local_setup.bash
+[1.639s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/local_setup.sh
+[1.640s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/local_setup.zsh
+[1.640s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/local_setup.dsv
+[1.640s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/package.dsv
+[1.640s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/ament_index/resource_index/packages/tf2_ros
+[1.640s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/ament_index/resource_index/rclcpp_components/tf2_ros
+[1.640s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.640s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[1.640s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_targets-extras.cmake
+[1.640s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.640s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/tf2_rosConfig.cmake
+[1.640s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/tf2_rosConfig-version.cmake
+[1.640s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/package.xml
+[1.640s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_ros/lib/libtf2_ros.so
+[1.641s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_ros/lib/libstatic_transform_broadcaster_node.so
+[1.641s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/export_tf2_rosExport.cmake
+[1.641s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/export_tf2_rosExport-noconfig.cmake
+[1.657s] Invoked command in '/home/rosdev/ros2_ws/build/tf2_ros' returned '0': CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/yolo_bringup:/home/rosdev/ros2_ws/install/yolo_msgs:/home/rosdev/ros2_ws/install/vision_opencv:/home/rosdev/ros2_ws/install/geometry2:/home/rosdev/ros2_ws/install/tf2_sensor_msgs:/home/rosdev/ros2_ws/install/test_tf2:/home/rosdev/ros2_ws/install/tf2_kdl:/home/rosdev/ros2_ws/install/tf2_geometry_msgs:/home/rosdev/ros2_ws/install/tf2_eigen:/home/rosdev/ros2_ws/install/tf2_bullet:/home/rosdev/ros2_ws/install/realsense2_camera:/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_eigen_kdl:/home/rosdev/ros2_ws/install/realsense2_description:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/image_geometry:/home/rosdev/ros2_ws/install/cv_bridge:/home/rosdev/ros2_ws/install/yolov8_tf_node:/home/rosdev/ros2_ws/install/yolo_ros:/home/rosdev/ros2_ws/install/tf2_tools:/home/rosdev/ros2_ws/install/examples_tf2_py:/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/aruco_realsense_ros:/home/rosdev/ros2_ws/install/opencv_tests:/home/rosdev/ros2_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:/home/rosdev/ros2_ws/install/yolo_msgs/lib:/home/rosdev/ros2_ws/install/realsense2_camera/lib:/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_eigen_kdl/lib:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/lib:/home/rosdev/ros2_ws/install/image_geometry/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/rosdev/ros2_ws/build/tf2_ros

@@ -1,0 +1,38 @@
+[0.978s] Invoking command in '/home/rosdev/ros2_ws/src/aruco_realsense_ros': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/cv_bridge LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/aruco_realsense_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/aruco_realsense_ros/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_realsense_ros build --build-base /home/rosdev/ros2_ws/build/aruco_realsense_ros/build install --record /home/rosdev/ros2_ws/build/aruco_realsense_ros/install.log --single-version-externally-managed install_data
+[1.296s] running egg_info
+[1.297s] creating ../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info
+[1.297s] writing ../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info/PKG-INFO
+[1.297s] writing dependency_links to ../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info/dependency_links.txt
+[1.298s] writing entry points to ../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info/entry_points.txt
+[1.298s] writing requirements to ../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info/requires.txt
+[1.298s] writing top-level names to ../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info/top_level.txt
+[1.298s] writing manifest file '../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info/SOURCES.txt'
+[1.301s] reading manifest file '../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info/SOURCES.txt'
+[1.302s] writing manifest file '../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info/SOURCES.txt'
+[1.302s] running build
+[1.303s] running build_py
+[1.303s] creating /home/rosdev/ros2_ws/build/aruco_realsense_ros/build
+[1.303s] creating /home/rosdev/ros2_ws/build/aruco_realsense_ros/build/lib
+[1.303s] creating /home/rosdev/ros2_ws/build/aruco_realsense_ros/build/lib/aruco_realsense_ros
+[1.304s] copying aruco_realsense_ros/__init__.py -> /home/rosdev/ros2_ws/build/aruco_realsense_ros/build/lib/aruco_realsense_ros
+[1.304s] copying aruco_realsense_ros/aruco_node.py -> /home/rosdev/ros2_ws/build/aruco_realsense_ros/build/lib/aruco_realsense_ros
+[1.304s] running install
+[1.304s] running install_lib
+[1.305s] creating /home/rosdev/ros2_ws/install/aruco_realsense_ros/lib/python3.10/site-packages/aruco_realsense_ros
+[1.305s] copying /home/rosdev/ros2_ws/build/aruco_realsense_ros/build/lib/aruco_realsense_ros/__init__.py -> /home/rosdev/ros2_ws/install/aruco_realsense_ros/lib/python3.10/site-packages/aruco_realsense_ros
+[1.306s] copying /home/rosdev/ros2_ws/build/aruco_realsense_ros/build/lib/aruco_realsense_ros/aruco_node.py -> /home/rosdev/ros2_ws/install/aruco_realsense_ros/lib/python3.10/site-packages/aruco_realsense_ros
+[1.307s] byte-compiling /home/rosdev/ros2_ws/install/aruco_realsense_ros/lib/python3.10/site-packages/aruco_realsense_ros/__init__.py to __init__.cpython-310.pyc
+[1.307s] byte-compiling /home/rosdev/ros2_ws/install/aruco_realsense_ros/lib/python3.10/site-packages/aruco_realsense_ros/aruco_node.py to aruco_node.cpython-310.pyc
+[1.310s] running install_data
+[1.310s] creating /home/rosdev/ros2_ws/install/aruco_realsense_ros/share/ament_index
+[1.311s] creating /home/rosdev/ros2_ws/install/aruco_realsense_ros/share/ament_index/resource_index
+[1.311s] creating /home/rosdev/ros2_ws/install/aruco_realsense_ros/share/ament_index/resource_index/packages
+[1.311s] copying resource/aruco_realsense_ros -> /home/rosdev/ros2_ws/install/aruco_realsense_ros/share/ament_index/resource_index/packages
+[1.311s] copying package.xml -> /home/rosdev/ros2_ws/install/aruco_realsense_ros/share/aruco_realsense_ros
+[1.311s] copying aruco_realsense_ros/aruco.rviz -> /home/rosdev/ros2_ws/install/aruco_realsense_ros/share/aruco_realsense_ros
+[1.311s] running install_egg_info
+[1.314s] Copying ../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info to /home/rosdev/ros2_ws/install/aruco_realsense_ros/lib/python3.10/site-packages/aruco_realsense_ros-0.0.0-py3.10.egg-info
+[1.316s] running install_scripts
+[1.352s] Installing aruco_node script to /home/rosdev/ros2_ws/install/aruco_realsense_ros/lib/aruco_realsense_ros
+[1.353s] writing list of installed files to '/home/rosdev/ros2_ws/build/aruco_realsense_ros/install.log'
+[1.423s] Invoked command in '/home/rosdev/ros2_ws/src/aruco_realsense_ros' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/cv_bridge LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/aruco_realsense_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/aruco_realsense_ros/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_realsense_ros build --build-base /home/rosdev/ros2_ws/build/aruco_realsense_ros/build install --record /home/rosdev/ros2_ws/build/aruco_realsense_ros/install.log --single-version-externally-managed install_data

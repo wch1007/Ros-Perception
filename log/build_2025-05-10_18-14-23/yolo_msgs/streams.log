@@ -1,0 +1,359 @@
+[0.160s] Invoking command in '/home/rosdev/ros2_ws/build/yolo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/yolo_ros:/home/rosdev/ros2_ws/install/tf2_tools:/home/rosdev/ros2_ws/install/examples_tf2_py:/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/yolo_msgs -- -j12 -l12
+[0.242s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.745s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.758s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.767s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.772s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.837s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.914s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.959s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.065s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.087s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.582s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.688s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.743s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.744s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.744s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[5.423s] -- Using numpy include directory: /home/rosdev/.local/lib/python3.10/site-packages/numpy/core/include
+[5.565s] -- Configuring done
+[5.974s] -- Generating done
+[6.045s] -- Build files have been written to: /home/rosdev/ros2_ws/build/yolo_msgs
+[6.293s] [  0%] Built target yolo_msgs__cpp
+[6.445s] [  0%] Built target ament_cmake_python_symlink_yolo_msgs
+[6.499s] [35m[1mConsolidate compiler generated dependencies of target yolo_msgs__rosidl_typesupport_introspection_cpp[0m
+[6.620s] [ 12%] Built target yolo_msgs__rosidl_typesupport_introspection_cpp
+[7.779s] running egg_info
+[7.781s] writing yolo_msgs.egg-info/PKG-INFO
+[7.783s] writing dependency_links to yolo_msgs.egg-info/dependency_links.txt
+[7.784s] writing top-level names to yolo_msgs.egg-info/top_level.txt
+[7.789s] reading manifest file 'yolo_msgs.egg-info/SOURCES.txt'
+[7.791s] writing manifest file 'yolo_msgs.egg-info/SOURCES.txt'
+[7.964s] [ 12%] Built target ament_cmake_python_build_yolo_msgs_egg
+[8.037s] [35m[1mConsolidate compiler generated dependencies of target yolo_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[8.153s] [ 24%] Built target yolo_msgs__rosidl_typesupport_fastrtps_cpp
+[8.210s] [35m[1mConsolidate compiler generated dependencies of target yolo_msgs__rosidl_typesupport_cpp[0m
+[8.317s] [ 36%] Built target yolo_msgs__rosidl_typesupport_cpp
+[8.454s] [35m[1mConsolidate compiler generated dependencies of target yolo_msgs__rosidl_generator_c[0m
+[8.514s] [ 48%] Built target yolo_msgs__rosidl_generator_c
+[8.596s] [35m[1mConsolidate compiler generated dependencies of target yolo_msgs__rosidl_typesupport_fastrtps_c[0m
+[8.815s] [ 60%] Built target yolo_msgs__rosidl_typesupport_fastrtps_c
+[8.946s] [35m[1mConsolidate compiler generated dependencies of target yolo_msgs__rosidl_typesupport_c[0m
+[9.015s] [ 72%] Built target yolo_msgs__rosidl_typesupport_c
+[9.082s] [35m[1mConsolidate compiler generated dependencies of target yolo_msgs__rosidl_typesupport_introspection_c[0m
+[9.188s] [ 84%] Built target yolo_msgs__rosidl_typesupport_introspection_c
+[9.345s] [ 84%] Built target yolo_msgs
+[9.522s] [ 85%] Built target yolo_msgs__py
+[9.618s] [35m[1mConsolidate compiler generated dependencies of target yolo_msgs__rosidl_generator_py[0m
+[9.768s] [ 96%] Built target yolo_msgs__rosidl_generator_py
+[9.816s] [35m[1mConsolidate compiler generated dependencies of target yolo_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[9.904s] [ 97%] Built target yolo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[10.011s] [35m[1mConsolidate compiler generated dependencies of target yolo_msgs__rosidl_typesupport_c__pyext[0m
+[10.058s] [ 98%] Built target yolo_msgs__rosidl_typesupport_c__pyext
+[10.102s] [35m[1mConsolidate compiler generated dependencies of target yolo_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[10.193s] [100%] Built target yolo_msgs__rosidl_typesupport_introspection_c__pyext
+[10.653s] Invoked command in '/home/rosdev/ros2_ws/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/yolo_ros:/home/rosdev/ros2_ws/install/tf2_tools:/home/rosdev/ros2_ws/install/examples_tf2_py:/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/yolo_msgs -- -j12 -l12
+[10.665s] Invoking command in '/home/rosdev/ros2_ws/build/yolo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/yolo_ros:/home/rosdev/ros2_ws/install/tf2_tools:/home/rosdev/ros2_ws/install/examples_tf2_py:/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/yolo_msgs
+[10.730s] -- Install configuration: ""
+[10.749s] -- Execute custom install script
+[10.750s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/ament_index/resource_index/rosidl_interfaces/yolo_msgs
+[10.750s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box2_d.h
+[10.750s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box3_d.h
+[10.750s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__functions.h
+[10.751s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__struct.h
+[10.751s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__type_support.h
+[10.751s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__functions.h
+[10.751s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__struct.h
+[10.751s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__type_support.h
+[10.751s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__functions.h
+[10.751s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__struct.h
+[10.751s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__type_support.h
+[10.751s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__functions.h
+[10.751s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__struct.h
+[10.751s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__type_support.h
+[10.756s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__functions.h
+[10.757s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__struct.h
+[10.757s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__type_support.h
+[10.757s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__functions.h
+[10.757s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__struct.h
+[10.757s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__type_support.h
+[10.757s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__functions.h
+[10.757s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__struct.h
+[10.757s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__type_support.h
+[10.758s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__functions.h
+[10.758s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__struct.h
+[10.758s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__type_support.h
+[10.758s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__functions.h
+[10.758s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__struct.h
+[10.758s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__type_support.h
+[10.758s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__functions.h
+[10.766s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__struct.h
+[10.766s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__type_support.h
+[10.766s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__functions.h
+[10.766s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__struct.h
+[10.767s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__type_support.h
+[10.767s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__functions.h
+[10.800s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__struct.h
+[10.800s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__type_support.h
+[10.801s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection.h
+[10.801s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection_array.h
+[10.801s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d.h
+[10.801s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d_array.h
+[10.801s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d.h
+[10.802s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d_array.h
+[10.802s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/mask.h
+[10.802s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/point2_d.h
+[10.802s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/pose2_d.h
+[10.802s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.802s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/vector2.h
+[10.802s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__functions.h
+[10.802s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__struct.h
+[10.803s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__type_support.h
+[10.803s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/set_classes.h
+[10.803s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/environment/library_path.sh
+[10.803s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/environment/library_path.dsv
+[10.803s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_c.h
+[10.803s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h
+[10.804s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+[10.805s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_c.h
+[10.805s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_c.h
+[10.805s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_c.h
+[10.805s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_c.h
+[10.805s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_c.h
+[10.805s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_fastrtps_c.h
+[10.805s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_c.h
+[10.805s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h
+[10.806s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_c.h
+[10.806s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.806s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_fastrtps_c.h
+[10.809s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_c.h
+[10.812s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h
+[10.814s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_introspection_c.h
+[10.815s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_c.h
+[10.815s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_c.h
+[10.815s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_c.h
+[10.815s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_introspection_c.h
+[10.815s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_c.h
+[10.818s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_introspection_c.h
+[10.827s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_c.h
+[10.827s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h
+[10.828s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_introspection_c.h
+[10.828s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.828s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_introspection_c.h
+[10.842s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box2_d.hpp
+[10.842s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box3_d.hpp
+[10.842s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__builder.hpp
+[10.862s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__struct.hpp
+[10.864s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__traits.hpp
+[10.864s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__type_support.hpp
+[10.864s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__builder.hpp
+[10.864s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__struct.hpp
+[10.864s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__traits.hpp
+[10.864s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__type_support.hpp
+[10.864s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__builder.hpp
+[10.865s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__struct.hpp
+[10.867s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__traits.hpp
+[10.867s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__type_support.hpp
+[10.868s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__builder.hpp
+[10.868s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__struct.hpp
+[10.868s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__traits.hpp
+[10.868s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__type_support.hpp
+[10.868s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__builder.hpp
+[10.868s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__struct.hpp
+[10.868s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__traits.hpp
+[10.868s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__type_support.hpp
+[10.868s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__builder.hpp
+[10.869s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__struct.hpp
+[10.870s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__traits.hpp
+[10.871s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__type_support.hpp
+[10.871s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__builder.hpp
+[10.874s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__struct.hpp
+[10.875s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__traits.hpp
+[10.876s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__type_support.hpp
+[10.876s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__builder.hpp
+[10.876s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__struct.hpp
+[10.876s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__traits.hpp
+[10.876s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__type_support.hpp
+[10.876s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__builder.hpp
+[10.878s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__struct.hpp
+[10.878s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__traits.hpp
+[10.879s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__type_support.hpp
+[10.879s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__builder.hpp
+[10.879s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__struct.hpp
+[10.879s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__traits.hpp
+[10.879s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__type_support.hpp
+[10.879s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__builder.hpp
+[10.879s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__struct.hpp
+[10.879s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__traits.hpp
+[10.879s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__type_support.hpp
+[10.879s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__builder.hpp
+[10.879s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__struct.hpp
+[10.880s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__traits.hpp
+[10.880s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__type_support.hpp
+[10.892s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection.hpp
+[10.892s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection_array.hpp
+[10.899s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d.hpp
+[10.899s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d_array.hpp
+[10.899s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d.hpp
+[10.899s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d_array.hpp
+[10.900s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/mask.hpp
+[10.900s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/point2_d.hpp
+[10.900s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/pose2_d.hpp
+[10.900s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.900s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/vector2.hpp
+[10.900s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__builder.hpp
+[10.900s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__struct.hpp
+[10.900s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__traits.hpp
+[10.900s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__type_support.hpp
+[10.900s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/set_classes.hpp
+[10.900s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[10.901s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[10.901s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+[10.901s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[10.901s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[10.901s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[10.902s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[10.902s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[10.903s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_fastrtps_cpp.hpp
+[10.903s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[10.903s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[10.903s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_cpp.hpp
+[10.903s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.903s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_fastrtps_cpp.hpp
+[10.903s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_cpp.hpp
+[10.904s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp
+[10.904s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+[10.904s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_cpp.hpp
+[10.904s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_cpp.hpp
+[10.904s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_cpp.hpp
+[10.904s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_introspection_cpp.hpp
+[10.917s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_cpp.hpp
+[10.917s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_introspection_cpp.hpp
+[10.917s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_cpp.hpp
+[10.917s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp
+[10.918s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_introspection_cpp.hpp
+[10.918s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_introspection_cpp.hpp
+[10.918s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/environment/pythonpath.sh
+[10.919s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/environment/pythonpath.dsv
+[10.919s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.2.0-py3.10.egg-info/PKG-INFO
+[10.919s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.2.0-py3.10.egg-info/SOURCES.txt
+[10.919s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.2.0-py3.10.egg-info/dependency_links.txt
+[10.920s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.2.0-py3.10.egg-info/top_level.txt
+[10.920s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/__init__.py
+[10.920s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_c.c
+[10.920s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.920s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[10.921s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/libyolo_msgs__rosidl_generator_py.so
+[10.931s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/__init__.py
+[10.931s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box2_d.py
+[10.931s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box2_d_s.c
+[10.931s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box3_d.py
+[10.931s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box3_d_s.c
+[10.932s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection.py
+[10.932s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection_array.py
+[10.932s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection_array_s.c
+[10.932s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection_s.c
+[10.932s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d.py
+[10.932s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d_array.py
+[10.932s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d_array_s.c
+[10.932s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d_s.c
+[10.932s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d.py
+[10.933s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d_array.py
+[10.933s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d_array_s.c
+[10.935s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d_s.c
+[10.935s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_mask.py
+[10.935s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_mask_s.c
+[10.936s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_point2_d.py
+[10.936s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_point2_d_s.c
+[10.936s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_pose2_d.py
+[10.936s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_pose2_d_s.c
+[10.936s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_vector2.py
+[10.936s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_vector2_s.c
+[10.936s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/__init__.py
+[10.952s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/_set_classes.py
+[10.952s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/_set_classes_s.c
+[10.952s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[10.952s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[10.952s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[10.952s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[10.953s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[10.953s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[10.953s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/Point2D.idl
+[10.953s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/Vector2.idl
+[10.953s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/Pose2D.idl
+[10.953s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox2D.idl
+[10.953s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox3D.idl
+[10.953s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/Mask.idl
+[10.953s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2D.idl
+[10.953s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2DArray.idl
+[10.953s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3D.idl
+[10.954s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3DArray.idl
+[10.954s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/Detection.idl
+[10.954s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/DetectionArray.idl
+[10.954s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/srv/SetClasses.idl
+[10.954s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/Point2D.msg
+[10.954s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/Vector2.msg
+[10.954s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/Pose2D.msg
+[10.954s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox2D.msg
+[10.954s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox3D.msg
+[10.954s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/Mask.msg
+[10.954s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2D.msg
+[10.954s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2DArray.msg
+[10.955s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3D.msg
+[10.955s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3DArray.msg
+[10.955s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/Detection.msg
+[10.955s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/msg/DetectionArray.msg
+[10.955s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/srv/SetClasses.srv
+[10.955s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/srv/SetClasses_Request.msg
+[10.955s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/srv/SetClasses_Response.msg
+[10.955s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/ament_index/resource_index/package_run_dependencies/yolo_msgs
+[10.956s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/ament_index/resource_index/parent_prefix_path/yolo_msgs
+[10.956s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/environment/ament_prefix_path.sh
+[10.956s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/environment/ament_prefix_path.dsv
+[10.956s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/environment/path.sh
+[10.957s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/environment/path.dsv
+[10.957s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/local_setup.bash
+[10.957s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/local_setup.sh
+[10.957s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/local_setup.zsh
+[10.957s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/local_setup.dsv
+[10.957s] -- Symlinking: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/package.dsv
+[10.969s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/ament_index/resource_index/packages/yolo_msgs
+[10.969s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/rosidl_cmake-extras.cmake
+[10.969s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.969s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.969s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.969s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.969s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.969s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.969s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgsConfig.cmake
+[10.969s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgsConfig-version.cmake
+[10.969s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/package.xml
+[10.970s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_c.so
+[10.970s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_c.so
+[10.970s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_c.so
+[10.970s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_c.so
+[10.970s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.970s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_cpp.so
+[10.970s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_cpp.so
+[11.186s] Listing '/home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs'...
+[11.187s] Compiling '/home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/__init__.py'...
+[11.188s] Listing '/home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg'...
+[11.188s] Listing '/home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv'...
+[11.215s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_py.so
+[11.216s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_cExport.cmake
+[11.217s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_cExport-noconfig.cmake
+[11.217s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[11.218s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.218s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[11.219s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.220s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cExport.cmake
+[11.221s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[11.223s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_cppExport.cmake
+[11.223s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.223s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.223s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[11.223s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.224s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cppExport.cmake
+[11.224s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[11.224s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_pyExport.cmake
+[11.224s] -- Up-to-date: /home/rosdev/ros2_ws/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[11.271s] Invoked command in '/home/rosdev/ros2_ws/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/yolo_ros:/home/rosdev/ros2_ws/install/tf2_tools:/home/rosdev/ros2_ws/install/examples_tf2_py:/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/yolo_msgs

@@ -1,0 +1,21 @@
+[2.940s] Invoking command in '/home/rosdev/ros2_ws/aruco': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/cv_bridge LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/aruco/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aruco build --build-base /home/rosdev/ros2_ws/build/aruco/build install --record /home/rosdev/ros2_ws/build/aruco/install.log --single-version-externally-managed install_data
+[3.296s] running egg_info
+[3.298s] writing ../build/aruco/aruco.egg-info/PKG-INFO
+[3.298s] writing dependency_links to ../build/aruco/aruco.egg-info/dependency_links.txt
+[3.298s] writing entry points to ../build/aruco/aruco.egg-info/entry_points.txt
+[3.299s] writing requirements to ../build/aruco/aruco.egg-info/requires.txt
+[3.299s] writing top-level names to ../build/aruco/aruco.egg-info/top_level.txt
+[3.305s] reading manifest file '../build/aruco/aruco.egg-info/SOURCES.txt'
+[3.305s] writing manifest file '../build/aruco/aruco.egg-info/SOURCES.txt'
+[3.305s] running build
+[3.306s] running build_py
+[3.306s] running install
+[3.307s] running install_lib
+[3.312s] running install_data
+[3.312s] running install_egg_info
+[3.317s] removing '/home/rosdev/ros2_ws/install/aruco/lib/python3.10/site-packages/aruco-0.0.0-py3.10.egg-info' (and everything under it)
+[3.325s] Copying ../build/aruco/aruco.egg-info to /home/rosdev/ros2_ws/install/aruco/lib/python3.10/site-packages/aruco-0.0.0-py3.10.egg-info
+[3.334s] running install_scripts
+[3.371s] Installing aruco_realsense script to /home/rosdev/ros2_ws/install/aruco/lib/aruco
+[3.371s] writing list of installed files to '/home/rosdev/ros2_ws/build/aruco/install.log'
+[3.485s] Invoked command in '/home/rosdev/ros2_ws/aruco' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/cv_bridge LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/aruco/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aruco build --build-base /home/rosdev/ros2_ws/build/aruco/build install --record /home/rosdev/ros2_ws/build/aruco/install.log --single-version-externally-managed install_data

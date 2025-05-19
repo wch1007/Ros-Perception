@@ -1,0 +1,73 @@
+[0.166s] Invoking command in '/home/rosdev/ros2_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rosdev/ros2_ws/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/realsense2_camera
+[0.199s] -- Create Release Build.
+[0.200s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.477s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.489s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.549s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.567s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.577s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.593s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.613s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.631s] -- Found cv_bridge: 3.2.1 (/home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/cmake)
+[0.711s] -- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+[0.759s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.762s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.983s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.082s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.108s] -- Found realsense2_camera_msgs: 4.54.1 (/home/rosdev/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)
+[1.130s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.159s] -- Found tf2_ros: 0.25.7 (/home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake)
+[1.256s] -- Found diagnostic_updater: 4.0.3 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[1.300s] -- Build for ROS2 Humble
+[1.508s] -- Configuring done
+[1.581s] -- Generating done
+[1.597s] -- Build files have been written to: /home/rosdev/ros2_ws/build/realsense2_camera
+[1.628s] Invoked command in '/home/rosdev/ros2_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rosdev/ros2_ws/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/realsense2_camera
+[1.641s] Invoking command in '/home/rosdev/ros2_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosdev/ros2_ws/build/realsense2_camera -- -j12 -l12
+[1.760s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera[0m
+[1.796s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_node[0m
+[1.877s] [ 87%] Built target realsense2_camera
+[1.903s] [100%] Built target realsense2_camera_node
+[1.984s] Invoked command in '/home/rosdev/ros2_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosdev/ros2_ws/build/realsense2_camera -- -j12 -l12
+[1.986s] Invoking command in '/home/rosdev/ros2_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rosdev/ros2_ws/build/realsense2_camera
+[2.039s] -- Install configuration: "Release"
+[2.039s] -- Execute custom install script
+[2.040s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node
+[2.040s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/lib/librealsense2_camera.so
+[2.040s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/include/base_realsense_node.h
+[2.040s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/include/constants.h
+[2.040s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/include/dynamic_params.h
+[2.040s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/include/image_publisher.h
+[2.040s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/include/named_filter.h
+[2.041s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/include/profile_manager.h
+[2.041s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/include/realsense_node_factory.h
+[2.041s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/include/ros_param_backend.h
+[2.041s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/include/ros_sensor.h
+[2.042s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/include/ros_utils.h
+[2.042s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/include/sensor_params.h
+[2.042s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/default.rviz
+[2.042s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_intra_process_demo_launch.py
+[2.042s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py
+[2.042s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py
+[2.042s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh
+[2.042s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv
+[2.042s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera
+[2.043s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera
+[2.043s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh
+[2.043s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv
+[2.043s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/path.sh
+[2.043s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/path.dsv
+[2.043s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.bash
+[2.043s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.sh
+[2.043s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.zsh
+[2.043s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.dsv
+[2.043s] -- Symlinking: /home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.dsv
+[2.053s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera
+[2.053s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera
+[2.054s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.055s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[2.055s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.055s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake
+[2.055s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake
+[2.056s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.xml
+[2.092s] Invoked command in '/home/rosdev/ros2_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rosdev/ros2_ws/build/realsense2_camera

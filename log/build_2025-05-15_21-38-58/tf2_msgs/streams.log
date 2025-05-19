@@ -1,0 +1,231 @@
+[0.043s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/geometry2/tf2_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/tf2_msgs
+[0.073s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.300s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.328s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.332s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.338s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.399s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.448s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.463s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[0.509s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.529s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.163s] -- Found ament_cmake_cppcheck: 0.12.12 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.169s] -- Found ament_cmake_cpplint: 0.12.12 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.171s] -- Found ament_cmake_uncrustify: 0.12.12 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.173s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.758s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.390s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.433s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.452s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.452s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.452s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[2.743s] -- Using numpy include directory: /usr/local/lib/python3.10/dist-packages/numpy/_core/include
+[2.764s] -- Found ament_cmake_flake8: 0.12.12 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[2.765s] -- Found ament_cmake_pep257: 0.12.12 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[2.800s] -- Configuring done
+[2.919s] -- Generating done
+[2.945s] -- Build files have been written to: /home/rosdev/ros2_ws/build/tf2_msgs
+[2.973s] Invoked command in '/home/rosdev/ros2_ws/build/tf2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/geometry2/tf2_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/tf2_msgs
+[2.974s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/tf2_msgs -- -j12 -l12
+[3.100s] [35m[1mConsolidate compiler generated dependencies of target tf2_msgs__rosidl_generator_c[0m
+[3.136s] [  1%] Built target tf2_msgs__cpp
+[3.159s] [35m[1mConsolidate compiler generated dependencies of target tf2_msgs__rosidl_typesupport_cpp[0m
+[3.159s] [ 12%] Built target tf2_msgs__rosidl_generator_c
+[3.167s] [35m[1mConsolidate compiler generated dependencies of target tf2_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[3.175s] [ 12%] Built target ament_cmake_python_symlink_tf2_msgs
+[3.206s] [35m[1mConsolidate compiler generated dependencies of target tf2_msgs__rosidl_typesupport_introspection_cpp[0m
+[3.252s] [35m[1mConsolidate compiler generated dependencies of target tf2_msgs__rosidl_typesupport_fastrtps_c[0m
+[3.252s] [ 23%] Built target tf2_msgs__rosidl_typesupport_cpp
+[3.262s] [35m[1mConsolidate compiler generated dependencies of target tf2_msgs__rosidl_typesupport_introspection_c[0m
+[3.270s] [ 34%] Built target tf2_msgs__rosidl_typesupport_fastrtps_cpp
+[3.279s] [35m[1mConsolidate compiler generated dependencies of target tf2_msgs__rosidl_typesupport_c[0m
+[3.309s] [ 45%] Built target tf2_msgs__rosidl_typesupport_introspection_cpp
+[3.337s] [ 56%] Built target tf2_msgs__rosidl_typesupport_fastrtps_c
+[3.339s] [ 67%] Built target tf2_msgs__rosidl_typesupport_introspection_c
+[3.344s] [ 78%] Built target tf2_msgs__rosidl_typesupport_c
+[3.472s] [ 78%] Built target tf2_msgs
+[3.529s] [ 80%] Built target tf2_msgs__py
+[3.583s] [35m[1mConsolidate compiler generated dependencies of target tf2_msgs__rosidl_generator_py[0m
+[3.669s] [ 81%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_generator_py.dir/rosidl_generator_py/tf2_msgs/msg/_tf2_error_s.c.o[0m
+[3.689s] [ 83%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_generator_py.dir/rosidl_generator_py/tf2_msgs/msg/_tf_message_s.c.o[0m
+[3.690s] [ 85%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_generator_py.dir/rosidl_generator_py/tf2_msgs/srv/_frame_graph_s.c.o[0m
+[3.738s] [ 87%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_generator_py.dir/rosidl_generator_py/tf2_msgs/action/_lookup_transform_s.c.o[0m
+[3.838s] running egg_info
+[3.841s] writing tf2_msgs.egg-info/PKG-INFO
+[3.842s] writing dependency_links to tf2_msgs.egg-info/dependency_links.txt
+[3.842s] writing top-level names to tf2_msgs.egg-info/top_level.txt
+[3.846s] reading manifest file 'tf2_msgs.egg-info/SOURCES.txt'
+[3.847s] writing manifest file 'tf2_msgs.egg-info/SOURCES.txt'
+[4.022s] [ 87%] Built target ament_cmake_python_build_tf2_msgs_egg
+[4.300s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/tf2_msgs/libtf2_msgs__rosidl_generator_py.so[0m
+[4.389s] [ 89%] Built target tf2_msgs__rosidl_generator_py
+[4.407s] [35m[1mConsolidate compiler generated dependencies of target tf2_msgs__rosidl_typesupport_c__pyext[0m
+[4.408s] [35m[1mConsolidate compiler generated dependencies of target tf2_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.409s] [35m[1mConsolidate compiler generated dependencies of target tf2_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[4.432s] [ 90%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tf2_msgs/_tf2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.439s] [ 92%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tf2_msgs/_tf2_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.439s] [ 94%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tf2_msgs/_tf2_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.754s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/tf2_msgs/tf2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[4.774s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/tf2_msgs/tf2_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[4.775s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tf2_msgs/tf2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[4.934s] [100%] Built target tf2_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.934s] [100%] Built target tf2_msgs__rosidl_typesupport_c__pyext
+[4.970s] [100%] Built target tf2_msgs__rosidl_typesupport_introspection_c__pyext
+[5.021s] Invoked command in '/home/rosdev/ros2_ws/build/tf2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/tf2_msgs -- -j12 -l12
+[5.025s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/tf2_msgs
+[5.040s] -- Install configuration: ""
+[5.040s] -- Execute custom install script
+[5.041s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/ament_index/resource_index/rosidl_interfaces/tf2_msgs
+[5.041s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/detail/lookup_transform__functions.h
+[5.041s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/detail/lookup_transform__struct.h
+[5.041s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/detail/lookup_transform__type_support.h
+[5.041s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/lookup_transform.h
+[5.043s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf2_error__functions.h
+[5.043s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf2_error__struct.h
+[5.050s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf2_error__type_support.h
+[5.050s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__functions.h
+[5.051s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.h
+[5.051s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.h
+[5.051s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.051s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/tf2_error.h
+[5.051s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/tf_message.h
+[5.051s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__functions.h
+[5.051s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__struct.h
+[5.051s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__type_support.h
+[5.051s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/frame_graph.h
+[5.051s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/environment/library_path.sh
+[5.052s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/environment/library_path.dsv
+[5.052s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/detail/lookup_transform__rosidl_typesupport_fastrtps_c.h
+[5.052s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf2_error__rosidl_typesupport_fastrtps_c.h
+[5.052s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__rosidl_typesupport_fastrtps_c.h
+[5.052s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.052s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__rosidl_typesupport_fastrtps_c.h
+[5.052s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/detail/lookup_transform__rosidl_typesupport_introspection_c.h
+[5.052s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf2_error__rosidl_typesupport_introspection_c.h
+[5.052s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__rosidl_typesupport_introspection_c.h
+[5.052s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.052s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__rosidl_typesupport_introspection_c.h
+[5.052s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/detail/lookup_transform__builder.hpp
+[5.053s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/detail/lookup_transform__struct.hpp
+[5.053s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/detail/lookup_transform__traits.hpp
+[5.053s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/detail/lookup_transform__type_support.hpp
+[5.053s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/lookup_transform.hpp
+[5.053s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf2_error__builder.hpp
+[5.053s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf2_error__struct.hpp
+[5.055s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf2_error__traits.hpp
+[5.055s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf2_error__type_support.hpp
+[5.055s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp
+[5.055s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp
+[5.059s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp
+[5.060s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp
+[5.060s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.061s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/tf2_error.hpp
+[5.061s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp
+[5.061s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__builder.hpp
+[5.061s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__struct.hpp
+[5.061s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__traits.hpp
+[5.061s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__type_support.hpp
+[5.061s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/frame_graph.hpp
+[5.063s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/detail/lookup_transform__rosidl_typesupport_fastrtps_cpp.hpp
+[5.063s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf2_error__rosidl_typesupport_fastrtps_cpp.hpp
+[5.063s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__rosidl_typesupport_fastrtps_cpp.hpp
+[5.063s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.063s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[5.066s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/detail/lookup_transform__rosidl_typesupport_introspection_cpp.hpp
+[5.066s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf2_error__rosidl_typesupport_introspection_cpp.hpp
+[5.066s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__rosidl_typesupport_introspection_cpp.hpp
+[5.066s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__rosidl_typesupport_introspection_cpp.hpp
+[5.066s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/environment/pythonpath.sh
+[5.067s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/environment/pythonpath.dsv
+[5.067s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs-0.25.7-py3.10.egg-info/PKG-INFO
+[5.067s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs-0.25.7-py3.10.egg-info/SOURCES.txt
+[5.067s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs-0.25.7-py3.10.egg-info/dependency_links.txt
+[5.070s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs-0.25.7-py3.10.egg-info/top_level.txt
+[5.077s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/__init__.py
+[5.078s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/_tf2_msgs_s.ep.rosidl_typesupport_c.c
+[5.078s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/_tf2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.078s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/_tf2_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.079s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/action/__init__.py
+[5.079s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/action/_lookup_transform.py
+[5.079s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/action/_lookup_transform_s.c
+[5.079s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/libtf2_msgs__rosidl_generator_py.so
+[5.079s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/msg/__init__.py
+[5.079s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/msg/_tf2_error.py
+[5.084s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/msg/_tf2_error_s.c
+[5.084s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/msg/_tf_message.py
+[5.084s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/msg/_tf_message_s.c
+[5.085s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/srv/__init__.py
+[5.085s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/srv/_frame_graph.py
+[5.085s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/srv/_frame_graph_s.c
+[5.085s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/tf2_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.085s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/tf2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.089s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/tf2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.089s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/tf2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.089s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/tf2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.089s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/tf2_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.089s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/msg/TF2Error.idl
+[5.089s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/msg/TFMessage.idl
+[5.090s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/srv/FrameGraph.idl
+[5.090s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/action/LookupTransform.idl
+[5.090s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/msg/TF2Error.msg
+[5.090s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/msg/TFMessage.msg
+[5.090s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/srv/FrameGraph.srv
+[5.090s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/srv/FrameGraph_Request.msg
+[5.090s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/srv/FrameGraph_Response.msg
+[5.090s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/action/LookupTransform.action
+[5.090s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/tfmessage_bridge_mapping_rule.yaml
+[5.090s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/ament_index/resource_index/package_run_dependencies/tf2_msgs
+[5.091s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/ament_index/resource_index/parent_prefix_path/tf2_msgs
+[5.091s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/environment/ament_prefix_path.sh
+[5.091s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/environment/ament_prefix_path.dsv
+[5.091s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/environment/path.sh
+[5.092s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/environment/path.dsv
+[5.092s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/local_setup.bash
+[5.092s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/local_setup.sh
+[5.092s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/local_setup.zsh
+[5.092s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/local_setup.dsv
+[5.093s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/package.dsv
+[5.100s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/ament_index/resource_index/packages/tf2_msgs
+[5.101s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/rosidl_cmake-extras.cmake
+[5.102s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.103s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.103s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.104s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.105s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.105s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.105s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/tf2_msgsConfig.cmake
+[5.105s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/tf2_msgsConfig-version.cmake
+[5.105s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/package.xml
+[5.106s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_generator_c.so
+[5.106s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so
+[5.106s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so
+[5.106s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_typesupport_c.so
+[5.106s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.106s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_typesupport_introspection_cpp.so
+[5.107s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_typesupport_cpp.so
+[5.176s] Listing '/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs'...
+[5.176s] Compiling '/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/__init__.py'...
+[5.176s] Listing '/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/action'...
+[5.177s] Listing '/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/msg'...
+[5.177s] Listing '/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages/tf2_msgs/srv'...
+[5.197s] -- Installing: /home/rosdev/ros2_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_generator_py.so
+[5.202s] -- Set runtime path of "/home/rosdev/ros2_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_generator_py.so" to ""
+[5.203s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_generator_cExport.cmake
+[5.203s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.203s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.203s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.203s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.203s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.203s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_cExport.cmake
+[5.203s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.204s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_generator_cppExport.cmake
+[5.204s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.204s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.204s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.204s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.204s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_cppExport.cmake
+[5.204s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.204s] -- Old export file "/home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_generator_pyExport-noconfig.cmake].
+[5.204s] -- Installing: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_generator_pyExport.cmake
+[5.204s] -- Installing: /home/rosdev/ros2_ws/install/tf2_msgs/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.229s] Invoked command in '/home/rosdev/ros2_ws/build/tf2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/tf2_msgs

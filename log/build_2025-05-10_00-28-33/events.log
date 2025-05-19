@@ -1,0 +1,96 @@
+[0.000000] (-) TimerEvent: {}
+[0.035796] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.035933] (-) JobUnselected: {'identifier': 'examples_tf2_py'}
+[0.037052] (-) JobUnselected: {'identifier': 'geometry2'}
+[0.037232] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.037783] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.037915] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.039041] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.039214] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.039272] (-) JobUnselected: {'identifier': 'test_tf2'}
+[0.039326] (-) JobUnselected: {'identifier': 'tf2'}
+[0.039374] (-) JobUnselected: {'identifier': 'tf2_bullet'}
+[0.039425] (-) JobUnselected: {'identifier': 'tf2_eigen'}
+[0.039475] (-) JobUnselected: {'identifier': 'tf2_eigen_kdl'}
+[0.039524] (-) JobUnselected: {'identifier': 'tf2_geometry_msgs'}
+[0.039575] (-) JobUnselected: {'identifier': 'tf2_kdl'}
+[0.039624] (-) JobUnselected: {'identifier': 'tf2_msgs'}
+[0.039683] (-) JobUnselected: {'identifier': 'tf2_py'}
+[0.039728] (-) JobUnselected: {'identifier': 'tf2_ros'}
+[0.039787] (-) JobUnselected: {'identifier': 'tf2_ros_py'}
+[0.039829] (-) JobUnselected: {'identifier': 'tf2_sensor_msgs'}
+[0.039869] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.040026] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.040056] (-) JobUnselected: {'identifier': 'yolo_bringup'}
+[0.040122] (-) JobUnselected: {'identifier': 'yolo_msgs'}
+[0.040166] (yolo_ros) JobQueued: {'identifier': 'yolo_ros', 'dependencies': OrderedDict([('cv_bridge', '/home/rosdev/ros2_ws/install/cv_bridge'), ('yolo_msgs', '/home/rosdev/ros2_ws/install/yolo_msgs')])}
+[0.040229] (yolo_ros) JobStarted: {'identifier': 'yolo_ros'}
+[0.098575] (-) TimerEvent: {}
+[0.199211] (-) TimerEvent: {}
+[0.301423] (-) TimerEvent: {}
+[0.402013] (-) TimerEvent: {}
+[0.502581] (-) TimerEvent: {}
+[0.603496] (-) TimerEvent: {}
+[0.704299] (-) TimerEvent: {}
+[0.805525] (-) TimerEvent: {}
+[0.906219] (-) TimerEvent: {}
+[1.007063] (-) TimerEvent: {}
+[1.107663] (-) TimerEvent: {}
+[1.202643] (yolo_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/yolo_ros', 'build', '--build-base', '/home/rosdev/ros2_ws/build/yolo_ros/build', 'install', '--record', '/home/rosdev/ros2_ws/build/yolo_ros/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rosdev/ros2_ws/src/yolo_ros/yolo_ros', 'env': {'HOSTNAME': 'GIX-30258983', 'GIT_ASKPASS': '/vscode/cursor-server/bin/linux-arm64/0781e811de386a0c5bcb07ceb259df8ff8246a50/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/rosdev/ros2_ws/install/yolo_msgs/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:/home/rosdev/ros2_ws/install/realsense2_camera/lib:/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2_eigen_kdl/lib:/home/rosdev/ros2_ws/install/tf2/lib:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/lib:/home/rosdev/ros2_ws/install/image_geometry/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/cursor-server/bin/linux-arm64/0781e811de386a0c5bcb07ceb259df8ff8246a50/bin/helpers/browser.sh', 'HOME': '/home/rosdev', 'DISABLE_AUTO_UPDATE': 'true', 'TERM_PROGRAM_VERSION': '0.49.6', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-b7f4c098-a1f8-4372-9834-b0958f44a7bf.sock', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'head -n 10000 | cat', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/cursor-server/bin/linux-arm64/0781e811de386a0c5bcb07ceb259df8ff8246a50/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/cursor-server/bin/linux-arm64/0781e811de386a0c5bcb07ceb259df8ff8246a50/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'vscode-wayland-dd15179c-a354-4d68-bda7-7fec0f8f71c7.sock', 'COLCON_PREFIX_PATH': '/home/rosdev/ros2_ws/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-2dc3554f-7982-41ef-aab6-a3fa11587d58.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/rosdev/.local/bin:/vscode/cursor-server/bin/linux-arm64/0781e811de386a0c5bcb07ceb259df8ff8246a50/bin/remote-cli:/home/rosdev/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/user/1001', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-2dc3554f-7982-41ef-aab6-a3fa11587d58.sock","/tmp/.X11-unix/X3","/home/rosdev/.gnupg/S.gpg-agent"]', 'DISPLAY': ':3', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1001/vscode-git-05347d0bad.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-2dc3554f-7982-41ef-aab6-a3fa11587d58.sock', 'AMENT_PREFIX_PATH': '/home/rosdev/ros2_ws/install/yolo_bringup:/home/rosdev/ros2_ws/install/yolo_ros:/home/rosdev/ros2_ws/install/yolo_msgs:/home/rosdev/ros2_ws/install/vision_opencv:/home/rosdev/ros2_ws/install/geometry2:/home/rosdev/ros2_ws/install/tf2_tools:/home/rosdev/ros2_ws/install/tf2_sensor_msgs:/home/rosdev/ros2_ws/install/test_tf2:/home/rosdev/ros2_ws/install/tf2_kdl:/home/rosdev/ros2_ws/install/tf2_geometry_msgs:/home/rosdev/ros2_ws/install/examples_tf2_py:/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_eigen:/home/rosdev/ros2_ws/install/tf2_bullet:/home/rosdev/ros2_ws/install/realsense2_camera:/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2_eigen_kdl:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/realsense2_description:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/opencv_tests:/home/rosdev/ros2_ws/install/image_geometry:/home/rosdev/ros2_ws/install/cv_bridge:/opt/ros/humble', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X3', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/rosdev/ros2_ws/build/yolo_ros', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/rosdev/ros2_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/yolo_ros/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/yolo_ros/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_tools/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_kdl/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_geometry_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rosdev/ros2_ws/install/yolo_msgs:/home/rosdev/ros2_ws/install/cv_bridge:/home/rosdev/ros2_ws/install/yolo_bringup:/home/rosdev/ros2_ws/install/vision_opencv:/home/rosdev/ros2_ws/install/geometry2:/home/rosdev/ros2_ws/install/tf2_sensor_msgs:/home/rosdev/ros2_ws/install/test_tf2:/home/rosdev/ros2_ws/install/tf2_kdl:/home/rosdev/ros2_ws/install/tf2_geometry_msgs:/home/rosdev/ros2_ws/install/tf2_eigen:/home/rosdev/ros2_ws/install/tf2_bullet:/home/rosdev/ros2_ws/install/realsense2_camera:/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2_eigen_kdl:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/realsense2_description:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/image_geometry'}, 'shell': False}
+[1.207666] (-) TimerEvent: {}
+[1.308178] (-) TimerEvent: {}
+[1.409009] (-) TimerEvent: {}
+[1.509606] (-) TimerEvent: {}
+[1.610213] (-) TimerEvent: {}
+[1.649492] (yolo_ros) StdoutLine: {'line': b'running egg_info\n'}
+[1.651712] (yolo_ros) StdoutLine: {'line': b'creating ../../../build/yolo_ros/yolo_ros.egg-info\n'}
+[1.652613] (yolo_ros) StdoutLine: {'line': b'writing ../../../build/yolo_ros/yolo_ros.egg-info/PKG-INFO\n'}
+[1.653491] (yolo_ros) StdoutLine: {'line': b'writing dependency_links to ../../../build/yolo_ros/yolo_ros.egg-info/dependency_links.txt\n'}
+[1.654095] (yolo_ros) StdoutLine: {'line': b'writing entry points to ../../../build/yolo_ros/yolo_ros.egg-info/entry_points.txt\n'}
+[1.654689] (yolo_ros) StdoutLine: {'line': b'writing requirements to ../../../build/yolo_ros/yolo_ros.egg-info/requires.txt\n'}
+[1.655120] (yolo_ros) StdoutLine: {'line': b'writing top-level names to ../../../build/yolo_ros/yolo_ros.egg-info/top_level.txt\n'}
+[1.655744] (yolo_ros) StdoutLine: {'line': b"writing manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'\n"}
+[1.660525] (yolo_ros) StdoutLine: {'line': b"reading manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'\n"}
+[1.663296] (yolo_ros) StdoutLine: {'line': b"writing manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'\n"}
+[1.664314] (yolo_ros) StdoutLine: {'line': b'running build\n'}
+[1.664741] (yolo_ros) StdoutLine: {'line': b'running build_py\n'}
+[1.665284] (yolo_ros) StdoutLine: {'line': b'creating /home/rosdev/ros2_ws/build/yolo_ros/build\n'}
+[1.665499] (yolo_ros) StdoutLine: {'line': b'creating /home/rosdev/ros2_ws/build/yolo_ros/build/lib\n'}
+[1.665656] (yolo_ros) StdoutLine: {'line': b'creating /home/rosdev/ros2_ws/build/yolo_ros/build/lib/yolo_ros\n'}
+[1.665815] (yolo_ros) StdoutLine: {'line': b'copying yolo_ros/yolo_node.py -> /home/rosdev/ros2_ws/build/yolo_ros/build/lib/yolo_ros\n'}
+[1.666061] (yolo_ros) StdoutLine: {'line': b'copying yolo_ros/detect_3d_node.py -> /home/rosdev/ros2_ws/build/yolo_ros/build/lib/yolo_ros\n'}
+[1.666264] (yolo_ros) StdoutLine: {'line': b'copying yolo_ros/__init__.py -> /home/rosdev/ros2_ws/build/yolo_ros/build/lib/yolo_ros\n'}
+[1.666513] (yolo_ros) StdoutLine: {'line': b'copying yolo_ros/tracking_node.py -> /home/rosdev/ros2_ws/build/yolo_ros/build/lib/yolo_ros\n'}
+[1.666728] (yolo_ros) StdoutLine: {'line': b'copying yolo_ros/debug_node.py -> /home/rosdev/ros2_ws/build/yolo_ros/build/lib/yolo_ros\n'}
+[1.667105] (yolo_ros) StdoutLine: {'line': b'running install\n'}
+[1.667946] (yolo_ros) StdoutLine: {'line': b'running install_lib\n'}
+[1.672583] (yolo_ros) StdoutLine: {'line': b'creating /home/rosdev/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros\n'}
+[1.673491] (yolo_ros) StdoutLine: {'line': b'copying /home/rosdev/ros2_ws/build/yolo_ros/build/lib/yolo_ros/yolo_node.py -> /home/rosdev/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros\n'}
+[1.674250] (yolo_ros) StdoutLine: {'line': b'copying /home/rosdev/ros2_ws/build/yolo_ros/build/lib/yolo_ros/detect_3d_node.py -> /home/rosdev/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros\n'}
+[1.674823] (yolo_ros) StdoutLine: {'line': b'copying /home/rosdev/ros2_ws/build/yolo_ros/build/lib/yolo_ros/__init__.py -> /home/rosdev/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros\n'}
+[1.675497] (yolo_ros) StdoutLine: {'line': b'copying /home/rosdev/ros2_ws/build/yolo_ros/build/lib/yolo_ros/tracking_node.py -> /home/rosdev/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros\n'}
+[1.676141] (yolo_ros) StdoutLine: {'line': b'copying /home/rosdev/ros2_ws/build/yolo_ros/build/lib/yolo_ros/debug_node.py -> /home/rosdev/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros\n'}
+[1.679660] (yolo_ros) StdoutLine: {'line': b'byte-compiling /home/rosdev/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/yolo_node.py to yolo_node.cpython-310.pyc\n'}
+[1.684128] (yolo_ros) StdoutLine: {'line': b'byte-compiling /home/rosdev/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/detect_3d_node.py to detect_3d_node.cpython-310.pyc\n'}
+[1.688324] (yolo_ros) StdoutLine: {'line': b'byte-compiling /home/rosdev/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/__init__.py to __init__.cpython-310.pyc\n'}
+[1.688867] (yolo_ros) StdoutLine: {'line': b'byte-compiling /home/rosdev/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/tracking_node.py to tracking_node.cpython-310.pyc\n'}
+[1.691754] (yolo_ros) StdoutLine: {'line': b'byte-compiling /home/rosdev/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/debug_node.py to debug_node.cpython-310.pyc\n'}
+[1.696516] (yolo_ros) StdoutLine: {'line': b'running install_data\n'}
+[1.697436] (yolo_ros) StdoutLine: {'line': b'creating /home/rosdev/ros2_ws/install/yolo_ros/share/ament_index\n'}
+[1.697911] (yolo_ros) StdoutLine: {'line': b'creating /home/rosdev/ros2_ws/install/yolo_ros/share/ament_index/resource_index\n'}
+[1.698230] (yolo_ros) StdoutLine: {'line': b'creating /home/rosdev/ros2_ws/install/yolo_ros/share/ament_index/resource_index/packages\n'}
+[1.698623] (yolo_ros) StdoutLine: {'line': b'copying resource/yolo_ros -> /home/rosdev/ros2_ws/install/yolo_ros/share/ament_index/resource_index/packages\n'}
+[1.699139] (yolo_ros) StdoutLine: {'line': b'copying package.xml -> /home/rosdev/ros2_ws/install/yolo_ros/share/yolo_ros\n'}
+[1.699573] (yolo_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.705030] (yolo_ros) StdoutLine: {'line': b'Copying ../../../build/yolo_ros/yolo_ros.egg-info to /home/rosdev/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros-0.0.0-py3.10.egg-info\n'}
+[1.707623] (yolo_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[1.710320] (-) TimerEvent: {}
+[1.751961] (yolo_ros) StdoutLine: {'line': b'Installing debug_node script to /home/rosdev/ros2_ws/install/yolo_ros/lib/yolo_ros\n'}
+[1.753081] (yolo_ros) StdoutLine: {'line': b'Installing detect_3d_node script to /home/rosdev/ros2_ws/install/yolo_ros/lib/yolo_ros\n'}
+[1.753697] (yolo_ros) StdoutLine: {'line': b'Installing tracking_node script to /home/rosdev/ros2_ws/install/yolo_ros/lib/yolo_ros\n'}
+[1.754177] (yolo_ros) StdoutLine: {'line': b'Installing yolo_node script to /home/rosdev/ros2_ws/install/yolo_ros/lib/yolo_ros\n'}
+[1.755599] (yolo_ros) StdoutLine: {'line': b"writing list of installed files to '/home/rosdev/ros2_ws/build/yolo_ros/install.log'\n"}
+[1.810509] (-) TimerEvent: {}
+[1.846833] (yolo_ros) CommandEnded: {'returncode': 0}
+[1.872309] (yolo_ros) JobEnded: {'identifier': 'yolo_ros', 'rc': 0}
+[1.873946] (-) EventReactorShutdown: {}

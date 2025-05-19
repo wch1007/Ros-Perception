@@ -1,0 +1,68 @@
+[0.351s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_ros': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosdev/ros2_ws/build/tf2_ros -- -j12 -l12
+[0.580s] [ 20%] Built target tf2_ros
+[0.700s] [ 25%] Built target gtest
+[0.818s] [ 30%] Built target tf2_monitor
+[0.951s] [ 35%] Built target tf2_echo
+[1.075s] [ 40%] Built target static_transform_broadcaster_node
+[1.195s] [ 45%] Built target buffer_server
+[1.320s] [ 50%] Built target static_transform_publisher
+[1.510s] [ 55%] Built target gtest_main
+[1.687s] [ 60%] Built target test_buffer
+[1.839s] [ 65%] Built target tf2_ros_test_listener
+[1.934s] [ 70%] Built target tf2_ros_test_time_reset
+[2.034s] [ 75%] Built target tf2_ros_test_transform_broadcaster
+[2.201s] [ 80%] Built target tf2_ros_test_static_transform_broadcaster
+[2.419s] [ 85%] Built target tf2_ros_test_transform_listener
+[2.708s] [ 90%] Built target tf2_ros_test_message_filter
+[2.910s] [ 95%] Built target test_buffer_client
+[3.054s] [100%] Built target test_buffer_server
+[3.130s] Invoked command in '/home/rosdev/ros2_ws/build/tf2_ros' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosdev/ros2_ws/build/tf2_ros -- -j12 -l12
+[3.131s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_ros': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rosdev/ros2_ws/build/tf2_ros
+[3.169s] -- Install configuration: ""
+[3.177s] -- Execute custom install script
+[3.181s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/lib/tf2_ros/buffer_server
+[3.183s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/lib/tf2_ros/static_transform_publisher
+[3.185s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/lib/tf2_ros/tf2_echo
+[3.187s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/lib/tf2_ros/tf2_monitor
+[3.189s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/async_buffer_interface.h
+[3.190s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer.h
+[3.192s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer_client.h
+[3.193s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer_interface.h
+[3.194s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer_server.h
+[3.195s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/create_timer_interface.h
+[3.197s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/create_timer_ros.h
+[3.198s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/message_filter.h
+[3.199s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/qos.hpp
+[3.200s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/static_transform_broadcaster.h
+[3.202s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/static_transform_broadcaster_node.hpp
+[3.203s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/static_transform_broadcaster_visibility_control.h
+[3.206s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/transform_broadcaster.h
+[3.207s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/transform_listener.h
+[3.209s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/visibility_control.h
+[3.212s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/environment/library_path.sh
+[3.214s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/environment/library_path.dsv
+[3.225s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/ament_index/resource_index/package_run_dependencies/tf2_ros
+[3.227s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/ament_index/resource_index/parent_prefix_path/tf2_ros
+[3.231s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/environment/ament_prefix_path.sh
+[3.234s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/environment/ament_prefix_path.dsv
+[3.237s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/environment/path.sh
+[3.237s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/environment/path.dsv
+[3.237s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/local_setup.bash
+[3.237s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/local_setup.sh
+[3.238s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/local_setup.zsh
+[3.238s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/local_setup.dsv
+[3.238s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/package.dsv
+[3.288s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/ament_index/resource_index/packages/tf2_ros
+[3.289s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/ament_index/resource_index/rclcpp_components/tf2_ros
+[3.290s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.290s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[3.290s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_targets-extras.cmake
+[3.290s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.290s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/tf2_rosConfig.cmake
+[3.290s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/tf2_rosConfig-version.cmake
+[3.290s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/package.xml
+[3.290s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_ros/lib/libtf2_ros.so
+[3.306s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_ros/lib/libstatic_transform_broadcaster_node.so
+[3.312s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/export_tf2_rosExport.cmake
+[3.313s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/export_tf2_rosExport-noconfig.cmake
+[3.345s] Invoked command in '/home/rosdev/ros2_ws/build/tf2_ros' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rosdev/ros2_ws/build/tf2_ros

@@ -1,0 +1,92 @@
+[0.022s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_eigen_kdl': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/rosdev/ros2_ws/src/geometry2/tf2_eigen_kdl -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/tf2_eigen_kdl
+[0.115s] -- The C compiler identification is GNU 11.4.0
+[0.205s] -- The CXX compiler identification is GNU 11.4.0
+[0.219s] -- Detecting C compiler ABI info
+[0.336s] -- Detecting C compiler ABI info - done
+[0.346s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.347s] -- Detecting C compile features
+[0.347s] -- Detecting C compile features - done
+[0.353s] -- Detecting CXX compiler ABI info
+[0.489s] -- Detecting CXX compiler ABI info - done
+[0.500s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.500s] -- Detecting CXX compile features
+[0.501s] -- Detecting CXX compile features - done
+[0.506s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.726s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.917s] -- Found orocos_kdl_vendor: 0.2.5 (/opt/ros/humble/share/orocos_kdl_vendor/cmake)
+[0.929s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.932s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.932s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.935s] -- Found tf2: 0.25.7 (/home/rosdev/ros2_ws/install/tf2/share/tf2/cmake)
+[0.986s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.993s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.009s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.027s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.056s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.168s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.357s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.362s] -- Looking for pthread.h
+[1.493s] -- Looking for pthread.h - found
+[1.493s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.632s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.633s] -- Found Threads: TRUE  
+[1.641s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.647s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.647s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/rosdev/ros2_ws/src/geometry2/tf2_eigen_kdl/include>
+[1.647s] -- Configured cppcheck exclude dirs and/or files: 
+[1.649s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.649s] -- Configured cpplint exclude dirs and/or files: 
+[1.649s] -- Added test 'lint_cmake' to check CMake code style
+[1.651s] -- Added test 'uncrustify' to check C / C++ code style
+[1.658s] -- Configured uncrustify additional arguments: 
+[1.658s] -- Added test 'xmllint' to check XML markup files
+[1.658s] -- Configuring done
+[1.689s] -- Generating done
+[1.699s] -- Build files have been written to: /home/rosdev/ros2_ws/build/tf2_eigen_kdl
+[1.720s] Invoked command in '/home/rosdev/ros2_ws/build/tf2_eigen_kdl' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/rosdev/ros2_ws/src/geometry2/tf2_eigen_kdl -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/tf2_eigen_kdl
+[1.722s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_eigen_kdl': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/rosdev/ros2_ws/build/tf2_eigen_kdl -- -j12 -l12
+[1.815s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.831s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.835s] [ 37%] [32mBuilding CXX object CMakeFiles/tf2_eigen_kdl.dir/src/tf2_eigen_kdl.cpp.o[0m
+[3.113s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.399s] [ 50%] Built target gtest_main
+[4.830s] [ 62%] [32m[1mLinking CXX shared library libtf2_eigen_kdl.so[0m
+[5.263s] [ 62%] Built target tf2_eigen_kdl
+[8.686s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[8.891s] [ 75%] Built target gtest
+[8.988s] [ 87%] [32mBuilding CXX object CMakeFiles/tf2_eigen_kdl_test.dir/test/tf2_eigen_kdl_test.cpp.o[0m
+[15.584s] [100%] [32m[1mLinking CXX executable tf2_eigen_kdl_test[0m
+[15.940s] [100%] Built target tf2_eigen_kdl_test
+[15.965s] Invoked command in '/home/rosdev/ros2_ws/build/tf2_eigen_kdl' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/rosdev/ros2_ws/build/tf2_eigen_kdl -- -j12 -l12
+[15.969s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_eigen_kdl': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/rosdev/ros2_ws/build/tf2_eigen_kdl
+[15.984s] -- Install configuration: ""
+[15.984s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/include/tf2_eigen_kdl
+[15.985s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/include/tf2_eigen_kdl/tf2_eigen_kdl
+[15.986s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/include/tf2_eigen_kdl/tf2_eigen_kdl/tf2_eigen_kdl.hpp
+[15.986s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/include/tf2_eigen_kdl/tf2_eigen_kdl/visibility_control.h
+[15.987s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/lib/libtf2_eigen_kdl.so
+[15.988s] -- Set runtime path of "/home/rosdev/ros2_ws/install/tf2_eigen_kdl/lib/libtf2_eigen_kdl.so" to ""
+[15.988s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/tf2_eigen_kdl/environment/library_path.sh
+[15.989s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/tf2_eigen_kdl/environment/library_path.dsv
+[15.989s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/ament_index/resource_index/package_run_dependencies/tf2_eigen_kdl
+[15.990s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/ament_index/resource_index/parent_prefix_path/tf2_eigen_kdl
+[15.990s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/tf2_eigen_kdl/environment/ament_prefix_path.sh
+[15.991s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/tf2_eigen_kdl/environment/ament_prefix_path.dsv
+[15.991s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/tf2_eigen_kdl/environment/path.sh
+[15.992s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/tf2_eigen_kdl/environment/path.dsv
+[15.992s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/tf2_eigen_kdl/local_setup.bash
+[15.993s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/tf2_eigen_kdl/local_setup.sh
+[15.994s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/tf2_eigen_kdl/local_setup.zsh
+[15.994s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/tf2_eigen_kdl/local_setup.dsv
+[15.995s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/tf2_eigen_kdl/package.dsv
+[15.995s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/ament_index/resource_index/packages/tf2_eigen_kdl
+[15.996s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/tf2_eigen_kdl/cmake/export_tf2_eigen_kdlExport.cmake
+[15.996s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/tf2_eigen_kdl/cmake/export_tf2_eigen_kdlExport-noconfig.cmake
+[15.997s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/tf2_eigen_kdl/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.997s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/tf2_eigen_kdl/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.998s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/tf2_eigen_kdl/cmake/ament_cmake_export_libraries-extras.cmake
+[15.998s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/tf2_eigen_kdl/cmake/ament_cmake_export_targets-extras.cmake
+[15.999s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/tf2_eigen_kdl/cmake/tf2_eigen_kdlConfig.cmake
+[15.999s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/tf2_eigen_kdl/cmake/tf2_eigen_kdlConfig-version.cmake
+[16.000s] -- Installing: /home/rosdev/ros2_ws/install/tf2_eigen_kdl/share/tf2_eigen_kdl/package.xml
+[16.008s] Invoked command in '/home/rosdev/ros2_ws/build/tf2_eigen_kdl' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/rosdev/ros2_ws/build/tf2_eigen_kdl

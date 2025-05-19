@@ -1,0 +1,60 @@
+[0.079s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_bullet': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rosdev/ros2_ws/src/geometry2/tf2_bullet -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/tf2_bullet
+[0.501s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.502s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.503s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.504s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.504s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.504s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.505s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.507s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.585s] -- Found tf2: 0.25.7 (/home/rosdev/ros2_ws/install/tf2/share/tf2/cmake)
+[0.592s] -- Found tf2_ros: 0.25.7 (/home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake)
+[0.661s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.664s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.894s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.059s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.061s] -- Found ament_cmake_cppcheck: 0.12.12 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.264s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.278s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.279s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.279s] -- Configured cpplint exclude dirs and/or files: 
+[1.280s] -- Added test 'lint_cmake' to check CMake code style
+[1.281s] -- Added test 'uncrustify' to check C / C++ code style
+[1.282s] -- Configured uncrustify additional arguments: 
+[1.282s] -- Added test 'xmllint' to check XML markup files
+[1.286s] -- Configuring done
+[1.358s] -- Generating done
+[1.370s] -- Build files have been written to: /home/rosdev/ros2_ws/build/tf2_bullet
+[2.172s] Invoked command in '/home/rosdev/ros2_ws/build/tf2_bullet' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rosdev/ros2_ws/src/geometry2/tf2_bullet -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/tf2_bullet
+[2.175s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_bullet': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosdev/ros2_ws/build/tf2_bullet -- -j12 -l12
+[2.307s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[2.307s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[2.340s] [ 33%] Built target gtest
+[2.425s] [ 66%] Built target gtest_main
+[2.498s] [35m[1mConsolidate compiler generated dependencies of target test_bullet[0m
+[2.559s] [100%] Built target test_bullet
+[2.618s] Invoked command in '/home/rosdev/ros2_ws/build/tf2_bullet' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosdev/ros2_ws/build/tf2_bullet -- -j12 -l12
+[2.619s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_bullet': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rosdev/ros2_ws/build/tf2_bullet
+[2.638s] -- Install configuration: ""
+[2.638s] -- Execute custom install script
+[2.638s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_bullet/include/tf2_bullet/tf2_bullet/tf2_bullet.h
+[2.638s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_bullet/include/tf2_bullet/tf2_bullet/tf2_bullet.hpp
+[2.638s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_bullet/share/ament_index/resource_index/package_run_dependencies/tf2_bullet
+[2.638s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_bullet/share/ament_index/resource_index/parent_prefix_path/tf2_bullet
+[2.638s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_bullet/share/tf2_bullet/environment/ament_prefix_path.sh
+[2.639s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_bullet/share/tf2_bullet/environment/ament_prefix_path.dsv
+[2.639s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_bullet/share/tf2_bullet/environment/path.sh
+[2.639s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_bullet/share/tf2_bullet/environment/path.dsv
+[2.639s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_bullet/share/tf2_bullet/local_setup.bash
+[2.639s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_bullet/share/tf2_bullet/local_setup.sh
+[2.639s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_bullet/share/tf2_bullet/local_setup.zsh
+[2.639s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_bullet/share/tf2_bullet/local_setup.dsv
+[2.642s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_bullet/share/tf2_bullet/package.dsv
+[2.670s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_bullet/share/ament_index/resource_index/packages/tf2_bullet
+[2.671s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_bullet/share/tf2_bullet/cmake/bullet-extras.cmake
+[2.671s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_bullet/share/tf2_bullet/cmake/ament_cmake_export_targets-extras.cmake
+[2.671s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_bullet/share/tf2_bullet/cmake/tf2_bulletConfig.cmake
+[2.671s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_bullet/share/tf2_bullet/cmake/tf2_bulletConfig-version.cmake
+[2.671s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_bullet/share/tf2_bullet/package.xml
+[2.671s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_bullet/share/tf2_bullet/cmake/export_tf2_bulletExport.cmake
+[2.740s] Invoked command in '/home/rosdev/ros2_ws/build/tf2_bullet' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rosdev/ros2_ws/build/tf2_bullet

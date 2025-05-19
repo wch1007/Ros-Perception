@@ -1,0 +1,27 @@
+[0.054s] Invoking command in '/home/rosdev/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/yolo_ros:/home/rosdev/ros2_ws/install/tf2_tools:/home/rosdev/ros2_ws/install/examples_tf2_py:/home/rosdev/ros2_ws/install/tf2_ros_py:/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/cv_bridge
+[0.152s] -- The C compiler identification is GNU 11.4.0
+[0.237s] -- The CXX compiler identification is GNU 11.4.0
+[0.249s] -- Detecting C compiler ABI info
+[0.375s] -- Detecting C compiler ABI info - done
+[0.385s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.386s] -- Detecting C compile features
+[0.386s] -- Detecting C compile features - done
+[0.391s] -- Detecting CXX compiler ABI info
+[0.525s] -- Detecting CXX compiler ABI info - done
+[0.538s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.539s] -- Detecting CXX compile features
+[0.539s] -- Detecting CXX compile features - done
+[0.546s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.806s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.611s] -- Found Python3: /usr/include/python3.10 (found version "3.10.12") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[1.897s] [31mCMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+[1.897s]   Could NOT find Boost (missing: Boost_INCLUDE_DIR python3)
+[1.897s] Call Stack (most recent call first):
+[1.897s]   /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
+[1.897s]   /usr/share/cmake-3.22/Modules/FindBoost.cmake:2360 (find_package_handle_standard_args)
+[1.898s]   CMakeLists.txt:28 (find_package)
+[1.898s] 
+[1.898s] [0m
+[1.899s] -- Configuring incomplete, errors occurred!
+[1.899s] See also "/home/rosdev/ros2_ws/build/cv_bridge/CMakeFiles/CMakeOutput.log".
+[1.916s] Invoked command in '/home/rosdev/ros2_ws/build/cv_bridge' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/yolo_ros:/home/rosdev/ros2_ws/install/tf2_tools:/home/rosdev/ros2_ws/install/examples_tf2_py:/home/rosdev/ros2_ws/install/tf2_ros_py:/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/cv_bridge

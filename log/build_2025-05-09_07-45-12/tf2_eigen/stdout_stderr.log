@@ -1,0 +1,9 @@
+[ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 33%] Built target gtest_main
+[ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 66%] Built target gtest
+[ 83%] [32mBuilding CXX object CMakeFiles/tf2_eigen-test.dir/test/tf2_eigen-test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable tf2_eigen-test[0m
+[100%] Built target tf2_eigen-test

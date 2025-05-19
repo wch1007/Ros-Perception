@@ -1,0 +1,79 @@
+[35m[1mConsolidate compiler generated dependencies of target tf2_ros[0m
+[ 20%] Built target tf2_ros
+[ 25%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target tf2_monitor[0m
+[ 30%] Built target tf2_monitor
+[35m[1mConsolidate compiler generated dependencies of target tf2_echo[0m
+[ 35%] Built target tf2_echo
+[35m[1mConsolidate compiler generated dependencies of target static_transform_broadcaster_node[0m
+[ 40%] Built target static_transform_broadcaster_node
+[35m[1mConsolidate compiler generated dependencies of target buffer_server[0m
+[ 45%] Built target buffer_server
+[35m[1mConsolidate compiler generated dependencies of target static_transform_publisher[0m
+[ 50%] Built target static_transform_publisher
+[ 55%] Built target gtest_main
+[35m[1mConsolidate compiler generated dependencies of target test_buffer[0m
+[ 60%] Built target test_buffer
+[35m[1mConsolidate compiler generated dependencies of target tf2_ros_test_listener[0m
+[ 65%] Built target tf2_ros_test_listener
+[35m[1mConsolidate compiler generated dependencies of target tf2_ros_test_time_reset[0m
+[ 70%] Built target tf2_ros_test_time_reset
+[35m[1mConsolidate compiler generated dependencies of target tf2_ros_test_transform_broadcaster[0m
+[ 75%] Built target tf2_ros_test_transform_broadcaster
+[35m[1mConsolidate compiler generated dependencies of target tf2_ros_test_static_transform_broadcaster[0m
+[ 80%] Built target tf2_ros_test_static_transform_broadcaster
+[35m[1mConsolidate compiler generated dependencies of target tf2_ros_test_transform_listener[0m
+[ 85%] Built target tf2_ros_test_transform_listener
+[35m[1mConsolidate compiler generated dependencies of target tf2_ros_test_message_filter[0m
+[ 90%] Built target tf2_ros_test_message_filter
+[35m[1mConsolidate compiler generated dependencies of target test_buffer_client[0m
+[ 95%] Built target test_buffer_client
+[35m[1mConsolidate compiler generated dependencies of target test_buffer_server[0m
+[100%] Built target test_buffer_server
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/lib/tf2_ros/buffer_server
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/lib/tf2_ros/static_transform_publisher
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/lib/tf2_ros/tf2_echo
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/lib/tf2_ros/tf2_monitor
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/async_buffer_interface.h
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer.h
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer_client.h
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer_interface.h
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer_server.h
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/create_timer_interface.h
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/create_timer_ros.h
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/message_filter.h
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/qos.hpp
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/static_transform_broadcaster.h
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/static_transform_broadcaster_node.hpp
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/static_transform_broadcaster_visibility_control.h
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/transform_broadcaster.h
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/transform_listener.h
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/include/tf2_ros/tf2_ros/visibility_control.h
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/environment/library_path.sh
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/environment/library_path.dsv
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/ament_index/resource_index/package_run_dependencies/tf2_ros
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/ament_index/resource_index/parent_prefix_path/tf2_ros
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/environment/path.sh
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/environment/path.dsv
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/local_setup.bash
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/local_setup.sh
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/local_setup.zsh
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/local_setup.dsv
+-- Symlinking: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/package.dsv
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/ament_index/resource_index/packages/tf2_ros
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/ament_index/resource_index/rclcpp_components/tf2_ros
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/tf2_rosConfig.cmake
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/tf2_rosConfig-version.cmake
+-- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/package.xml
+-- Up-to-date: /home/rosdev/ros2_ws/install/tf2_ros/lib/libtf2_ros.so
+-- Up-to-date: /home/rosdev/ros2_ws/install/tf2_ros/lib/libstatic_transform_broadcaster_node.so
+-- Up-to-date: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/export_tf2_rosExport.cmake
+-- Up-to-date: /home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake/export_tf2_rosExport-noconfig.cmake

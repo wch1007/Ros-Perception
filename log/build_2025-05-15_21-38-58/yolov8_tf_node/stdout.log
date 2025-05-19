@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing yolov8_tf_node.egg-info/PKG-INFO
+writing dependency_links to yolov8_tf_node.egg-info/dependency_links.txt
+writing entry points to yolov8_tf_node.egg-info/entry_points.txt
+writing requirements to yolov8_tf_node.egg-info/requires.txt
+writing top-level names to yolov8_tf_node.egg-info/top_level.txt
+reading manifest file 'yolov8_tf_node.egg-info/SOURCES.txt'
+writing manifest file 'yolov8_tf_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rosdev/ros2_ws/install/yolov8_tf_node/lib/python3.10/site-packages/yolov8-tf-node.egg-link (link to .)
+Installing transform_detections script to /home/rosdev/ros2_ws/install/yolov8_tf_node/lib/yolov8_tf_node
+
+Installed /home/rosdev/ros2_ws/build/yolov8_tf_node
+running symlink_data
+symbolically linking /home/rosdev/ros2_ws/build/yolov8_tf_node/resource/yolov8_tf_node -> /home/rosdev/ros2_ws/install/yolov8_tf_node/share/ament_index/resource_index/packages
+symbolically linking /home/rosdev/ros2_ws/build/yolov8_tf_node/package.xml -> /home/rosdev/ros2_ws/install/yolov8_tf_node/share/yolov8_tf_node

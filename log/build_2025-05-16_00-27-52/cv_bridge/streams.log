@@ -1,0 +1,54 @@
+[0.057s] Invoking command in '/home/rosdev/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/yolov8_tf_node:/home/rosdev/ros2_ws/install/yolo_ros:/home/rosdev/ros2_ws/install/tf2_tools:/home/rosdev/ros2_ws/install/examples_tf2_py:/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/aruco_realsense_ros:/home/rosdev/ros2_ws/install/opencv_tests:/home/rosdev/ros2_ws/install/aruco:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/cv_bridge -- -j12 -l12
+[0.198s] [ 12%] Built target gtest
+[0.221s] [ 18%] Built target ament_cmake_python_symlink_cv_bridge
+[0.221s] [ 25%] Built target gtest_main
+[0.240s] [ 43%] Built target cv_bridge
+[0.421s] [ 81%] Built target cv_bridge-utest
+[0.427s] [100%] Built target cv_bridge_boost
+[0.774s] running egg_info
+[0.776s] writing cv_bridge.egg-info/PKG-INFO
+[0.776s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[0.776s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[0.788s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[0.789s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[0.889s] [100%] Built target ament_cmake_python_build_cv_bridge_egg
+[0.934s] Invoked command in '/home/rosdev/ros2_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/yolov8_tf_node:/home/rosdev/ros2_ws/install/yolo_ros:/home/rosdev/ros2_ws/install/tf2_tools:/home/rosdev/ros2_ws/install/examples_tf2_py:/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/aruco_realsense_ros:/home/rosdev/ros2_ws/install/opencv_tests:/home/rosdev/ros2_ws/install/aruco:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/cv_bridge -- -j12 -l12
+[0.935s] Invoking command in '/home/rosdev/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/yolov8_tf_node:/home/rosdev/ros2_ws/install/yolo_ros:/home/rosdev/ros2_ws/install/tf2_tools:/home/rosdev/ros2_ws/install/examples_tf2_py:/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/aruco_realsense_ros:/home/rosdev/ros2_ws/install/opencv_tests:/home/rosdev/ros2_ws/install/aruco:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/cv_bridge
+[0.954s] -- Install configuration: ""
+[0.955s] -- Execute custom install script
+[0.955s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[0.955s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[0.957s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/PKG-INFO
+[0.957s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/SOURCES.txt
+[0.957s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/dependency_links.txt
+[0.957s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/top_level.txt
+[0.958s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py
+[0.958s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/core.py
+[0.958s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h
+[0.958s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost//cv_bridge_boost.so
+[0.959s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h
+[0.959s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.h
+[0.959s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
+[0.959s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[0.959s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[0.960s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[0.960s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[0.960s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/environment/path.sh
+[0.960s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[0.961s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.bash
+[0.961s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.sh
+[0.961s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[0.962s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[0.962s] -- Symlinking: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/package.dsv
+[1.013s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[1.045s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[1.045s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.045s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[1.045s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[1.045s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[1.049s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/package.xml
+[1.156s] Listing '/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge'...
+[1.157s] Listing '/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost'...
+[1.170s] -- Up-to-date: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake
+[1.171s] -- Up-to-date: /home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake
+[1.224s] Invoked command in '/home/rosdev/ros2_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/yolov8_tf_node:/home/rosdev/ros2_ws/install/yolo_ros:/home/rosdev/ros2_ws/install/tf2_tools:/home/rosdev/ros2_ws/install/examples_tf2_py:/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/aruco_realsense_ros:/home/rosdev/ros2_ws/install/opencv_tests:/home/rosdev/ros2_ws/install/aruco:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/cv_bridge

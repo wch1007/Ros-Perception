@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.000949] (-) JobUnselected: {'identifier': 'aruco_realsense_ros'}
+[0.001352] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.001657] (-) JobUnselected: {'identifier': 'examples_tf2_py'}
+[0.001746] (-) JobUnselected: {'identifier': 'geometry2'}
+[0.001903] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.001978] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.002013] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.002081] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.002115] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.002143] (-) JobUnselected: {'identifier': 'test_tf2'}
+[0.002192] (-) JobUnselected: {'identifier': 'tf2'}
+[0.002592] (-) JobUnselected: {'identifier': 'tf2_bullet'}
+[0.002659] (-) JobUnselected: {'identifier': 'tf2_eigen'}
+[0.002773] (-) JobUnselected: {'identifier': 'tf2_eigen_kdl'}
+[0.002830] (-) JobUnselected: {'identifier': 'tf2_geometry_msgs'}
+[0.002863] (-) JobUnselected: {'identifier': 'tf2_kdl'}
+[0.002922] (-) JobUnselected: {'identifier': 'tf2_msgs'}
+[0.002965] (-) JobUnselected: {'identifier': 'tf2_py'}
+[0.003183] (-) JobUnselected: {'identifier': 'tf2_ros'}
+[0.003243] (-) JobUnselected: {'identifier': 'tf2_ros_py'}
+[0.003336] (-) JobUnselected: {'identifier': 'tf2_sensor_msgs'}
+[0.003391] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.003450] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.003491] (-) JobUnselected: {'identifier': 'yolo_bringup'}
+[0.004042] (-) JobUnselected: {'identifier': 'yolo_msgs'}
+[0.004112] (-) JobUnselected: {'identifier': 'yolo_ros'}
+[0.004173] (-) JobUnselected: {'identifier': 'yolov8_tf_node'}
+[0.004238] (aruco) JobQueued: {'identifier': 'aruco', 'dependencies': OrderedDict([('cv_bridge', '/home/rosdev/ros2_ws/install/cv_bridge'), ('realsense2_camera_msgs', '/home/rosdev/ros2_ws/install/realsense2_camera_msgs'), ('tf2', '/home/rosdev/ros2_ws/install/tf2'), ('tf2_msgs', '/home/rosdev/ros2_ws/install/tf2_msgs'), ('tf2_ros', '/home/rosdev/ros2_ws/install/tf2_ros'), ('realsense2_camera', '/home/rosdev/ros2_ws/install/realsense2_camera')])}
+[0.004329] (aruco) JobStarted: {'identifier': 'aruco'}
+[0.044822] (aruco) JobProgress: {'identifier': 'aruco', 'progress': 'cmake'}
+[0.045460] (aruco) Command: {'cmd': ['/usr/bin/cmake', '/home/rosdev/ros2_ws/src/aruco', '-DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/aruco'], 'cwd': '/home/rosdev/ros2_ws/build/aruco', 'env': OrderedDict([('HOSTNAME', 'GIX-30258983'), ('GIT_ASKPASS', '/vscode/cursor-server/bin/linux-arm64/0781e811de386a0c5bcb07ceb259df8ff8246a50/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/rosdev/ros2_ws/install/realsense2_camera/lib:/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/cursor-server/bin/linux-arm64/0781e811de386a0c5bcb07ceb259df8ff8246a50/bin/helpers/browser.sh'), ('HOME', '/home/rosdev'), ('DISABLE_AUTO_UPDATE', 'true'), ('TERM_PROGRAM_VERSION', '0.49.6'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-fba4728e-57de-41e8-8dca-9549cf1db28f.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'head -n 10000 | cat'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/cursor-server/bin/linux-arm64/0781e811de386a0c5bcb07ceb259df8ff8246a50/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/cursor-server/bin/linux-arm64/0781e811de386a0c5bcb07ceb259df8ff8246a50/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-1da0d388-b130-467f-9bc9-f2da7946f63f.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-77accb21-9b9f-4767-bdc8-e2172fe05468.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rosdev/.local/bin:/vscode/cursor-server/bin/linux-arm64/0781e811de386a0c5bcb07ceb259df8ff8246a50/bin/remote-cli:/home/rosdev/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1001'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-77accb21-9b9f-4767-bdc8-e2172fe05468.sock","/tmp/.X11-unix/X9","/home/rosdev/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':9'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1001/vscode-git-bcf47923b9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-77accb21-9b9f-4767-bdc8-e2172fe05468.sock'), ('AMENT_PREFIX_PATH', '/home/rosdev/ros2_ws/install/realsense2_camera:/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/cv_bridge:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X9'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rosdev/ros2_ws/build/aruco'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rosdev/ros2_ws/install/realsense2_camera:/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/cv_bridge:/opt/ros/humble')]), 'shell': False}
+[0.099249] (-) TimerEvent: {}
+[0.161712] (aruco) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199407] (-) TimerEvent: {}
+[0.253633] (aruco) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.266456] (aruco) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299585] (-) TimerEvent: {}
+[0.390022] (aruco) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.399780] (-) TimerEvent: {}
+[0.400397] (aruco) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.400836] (aruco) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.401416] (aruco) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.405812] (aruco) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499961] (-) TimerEvent: {}
+[0.553368] (aruco) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.567059] (aruco) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.567494] (aruco) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.567968] (aruco) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.574721] (aruco) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600079] (-) TimerEvent: {}
+[0.700695] (-) TimerEvent: {}
+[0.801393] (-) TimerEvent: {}
+[0.809984] (aruco) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.901594] (-) TimerEvent: {}
+[0.983542] (aruco) StdoutLine: {'line': b'-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.986602] (aruco) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.001718] (-) TimerEvent: {}
+[1.055687] (aruco) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.068620] (aruco) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.084920] (aruco) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.101888] (-) TimerEvent: {}
+[1.105545] (aruco) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.134759] (aruco) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.202061] (-) TimerEvent: {}
+[1.222911] (aruco) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/home/rosdev/ros2_ws/install/cv_bridge/share/cv_bridge/cmake)\n'}
+[1.240890] (aruco) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/home/rosdev/ros2_ws/install/tf2_ros/share/tf2_ros/cmake)\n'}
+[1.302232] (-) TimerEvent: {}
+[1.371724] (aruco) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.377363] (aruco) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.402402] (-) TimerEvent: {}
+[1.503059] (-) TimerEvent: {}
+[1.569028] (aruco) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.603222] (-) TimerEvent: {}
+[1.625257] (aruco) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.703430] (-) TimerEvent: {}
+[1.713472] (aruco) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.729598] (aruco) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.803615] (-) TimerEvent: {}
+[1.859856] (aruco) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.860392] (aruco) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.903782] (-) TimerEvent: {}
+[1.993936] (aruco) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.995721] (aruco) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.003931] (-) TimerEvent: {}
+[2.104575] (-) TimerEvent: {}
+[2.159672] (aruco) StdoutLine: {'line': b'-- Found realsense2_camera: 4.54.1 (/home/rosdev/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake)\n'}
+[2.204738] (-) TimerEvent: {}
+[2.305372] (-) TimerEvent: {}
+[2.405982] (-) TimerEvent: {}
+[2.442242] (aruco) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):\n'}
+[2.442792] (aruco) StderrLine: {'line': b'  ament_python_install_package() the Python package folder\n'}
+[2.443121] (aruco) StderrLine: {'line': b"  '/home/rosdev/ros2_ws/src/aruco/aruco' doesn't contain an '__init__.py'\n"}
+[2.443241] (aruco) StderrLine: {'line': b'  file\n'}
+[2.443343] (aruco) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.443442] (aruco) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[2.443597] (aruco) StderrLine: {'line': b'  CMakeLists.txt:19 (ament_python_install_package)\n'}
+[2.443697] (aruco) StderrLine: {'line': b'\n'}
+[2.443790] (aruco) StderrLine: {'line': b'\x1b[0m\n'}
+[2.443881] (aruco) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.443999] (aruco) StdoutLine: {'line': b'See also "/home/rosdev/ros2_ws/build/aruco/CMakeFiles/CMakeOutput.log".\n'}
+[2.467652] (aruco) CommandEnded: {'returncode': 1}
+[2.506146] (-) TimerEvent: {}
+[2.520663] (aruco) JobEnded: {'identifier': 'aruco', 'rc': 1}
+[2.532494] (-) EventReactorShutdown: {}

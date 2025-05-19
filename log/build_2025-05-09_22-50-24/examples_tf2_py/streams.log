@@ -1,0 +1,57 @@
+[1.999s] Invoking command in '/home/rosdev/ros2_ws/build/examples_tf2_py': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2 LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/examples_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rosdev/ros2_ws/build/examples_tf2_py/build
+[2.433s] running develop
+[2.644s] Removing /home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages/examples-tf2-py.egg-link (link to .)
+[2.740s] Invoked command in '/home/rosdev/ros2_ws/build/examples_tf2_py' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2 LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/examples_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rosdev/ros2_ws/build/examples_tf2_py/build
+[2.743s] Invoking command in '/home/rosdev/ros2_ws/src/geometry2/examples_tf2_py': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2 LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/examples_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/examples_tf2_py build --build-base /home/rosdev/ros2_ws/build/examples_tf2_py/build install --record /home/rosdev/ros2_ws/build/examples_tf2_py/install.log --single-version-externally-managed install_data --force
+[3.085s] running egg_info
+[3.086s] writing ../../../build/examples_tf2_py/examples_tf2_py.egg-info/PKG-INFO
+[3.087s] writing dependency_links to ../../../build/examples_tf2_py/examples_tf2_py.egg-info/dependency_links.txt
+[3.087s] writing entry points to ../../../build/examples_tf2_py/examples_tf2_py.egg-info/entry_points.txt
+[3.088s] writing requirements to ../../../build/examples_tf2_py/examples_tf2_py.egg-info/requires.txt
+[3.089s] writing top-level names to ../../../build/examples_tf2_py/examples_tf2_py.egg-info/top_level.txt
+[3.092s] reading manifest file '../../../build/examples_tf2_py/examples_tf2_py.egg-info/SOURCES.txt'
+[3.095s] writing manifest file '../../../build/examples_tf2_py/examples_tf2_py.egg-info/SOURCES.txt'
+[3.096s] running build
+[3.096s] running build_py
+[3.096s] creating /home/rosdev/ros2_ws/build/examples_tf2_py/build
+[3.097s] creating /home/rosdev/ros2_ws/build/examples_tf2_py/build/lib
+[3.097s] creating /home/rosdev/ros2_ws/build/examples_tf2_py/build/lib/examples_tf2_py
+[3.097s] copying examples_tf2_py/frame_dumper.py -> /home/rosdev/ros2_ws/build/examples_tf2_py/build/lib/examples_tf2_py
+[3.097s] copying examples_tf2_py/waits_for_transform.py -> /home/rosdev/ros2_ws/build/examples_tf2_py/build/lib/examples_tf2_py
+[3.097s] copying examples_tf2_py/__init__.py -> /home/rosdev/ros2_ws/build/examples_tf2_py/build/lib/examples_tf2_py
+[3.097s] copying examples_tf2_py/async_waits_for_transform.py -> /home/rosdev/ros2_ws/build/examples_tf2_py/build/lib/examples_tf2_py
+[3.098s] copying examples_tf2_py/dynamic_broadcaster.py -> /home/rosdev/ros2_ws/build/examples_tf2_py/build/lib/examples_tf2_py
+[3.098s] copying examples_tf2_py/blocking_waits_for_transform.py -> /home/rosdev/ros2_ws/build/examples_tf2_py/build/lib/examples_tf2_py
+[3.098s] copying examples_tf2_py/static_broadcaster.py -> /home/rosdev/ros2_ws/build/examples_tf2_py/build/lib/examples_tf2_py
+[3.098s] running install
+[3.098s] running install_lib
+[3.102s] creating /home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages/examples_tf2_py
+[3.103s] copying /home/rosdev/ros2_ws/build/examples_tf2_py/build/lib/examples_tf2_py/frame_dumper.py -> /home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages/examples_tf2_py
+[3.103s] copying /home/rosdev/ros2_ws/build/examples_tf2_py/build/lib/examples_tf2_py/waits_for_transform.py -> /home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages/examples_tf2_py
+[3.103s] copying /home/rosdev/ros2_ws/build/examples_tf2_py/build/lib/examples_tf2_py/__init__.py -> /home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages/examples_tf2_py
+[3.103s] copying /home/rosdev/ros2_ws/build/examples_tf2_py/build/lib/examples_tf2_py/async_waits_for_transform.py -> /home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages/examples_tf2_py
+[3.103s] copying /home/rosdev/ros2_ws/build/examples_tf2_py/build/lib/examples_tf2_py/dynamic_broadcaster.py -> /home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages/examples_tf2_py
+[3.104s] copying /home/rosdev/ros2_ws/build/examples_tf2_py/build/lib/examples_tf2_py/blocking_waits_for_transform.py -> /home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages/examples_tf2_py
+[3.104s] copying /home/rosdev/ros2_ws/build/examples_tf2_py/build/lib/examples_tf2_py/static_broadcaster.py -> /home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages/examples_tf2_py
+[3.105s] byte-compiling /home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages/examples_tf2_py/frame_dumper.py to frame_dumper.cpython-310.pyc
+[3.106s] byte-compiling /home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages/examples_tf2_py/waits_for_transform.py to waits_for_transform.cpython-310.pyc
+[3.108s] byte-compiling /home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages/examples_tf2_py/__init__.py to __init__.cpython-310.pyc
+[3.108s] byte-compiling /home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages/examples_tf2_py/async_waits_for_transform.py to async_waits_for_transform.cpython-310.pyc
+[3.108s] byte-compiling /home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages/examples_tf2_py/dynamic_broadcaster.py to dynamic_broadcaster.cpython-310.pyc
+[3.111s] byte-compiling /home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages/examples_tf2_py/blocking_waits_for_transform.py to blocking_waits_for_transform.cpython-310.pyc
+[3.111s] byte-compiling /home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages/examples_tf2_py/static_broadcaster.py to static_broadcaster.cpython-310.pyc
+[3.112s] running install_data
+[3.112s] copying resource/examples_tf2_py -> /home/rosdev/ros2_ws/install/examples_tf2_py/share/ament_index/resource_index/packages
+[3.112s] copying package.xml -> /home/rosdev/ros2_ws/install/examples_tf2_py/share/examples_tf2_py
+[3.113s] copying launch/broadcasters.launch.xml -> /home/rosdev/ros2_ws/install/examples_tf2_py/share/examples_tf2_py/launch
+[3.113s] running install_egg_info
+[3.118s] Copying ../../../build/examples_tf2_py/examples_tf2_py.egg-info to /home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages/examples_tf2_py-0.25.7-py3.10.egg-info
+[3.119s] running install_scripts
+[3.159s] Installing async_waits_for_transform script to /home/rosdev/ros2_ws/install/examples_tf2_py/lib/examples_tf2_py
+[3.160s] Installing blocking_waits_for_transform script to /home/rosdev/ros2_ws/install/examples_tf2_py/lib/examples_tf2_py
+[3.160s] Installing dynamic_broadcaster script to /home/rosdev/ros2_ws/install/examples_tf2_py/lib/examples_tf2_py
+[3.160s] Installing frame_dumper script to /home/rosdev/ros2_ws/install/examples_tf2_py/lib/examples_tf2_py
+[3.160s] Installing static_broadcaster script to /home/rosdev/ros2_ws/install/examples_tf2_py/lib/examples_tf2_py
+[3.160s] Installing waits_for_transform script to /home/rosdev/ros2_ws/install/examples_tf2_py/lib/examples_tf2_py
+[3.161s] writing list of installed files to '/home/rosdev/ros2_ws/build/examples_tf2_py/install.log'
+[3.269s] Invoked command in '/home/rosdev/ros2_ws/src/geometry2/examples_tf2_py' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2 LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/examples_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/examples_tf2_py build --build-base /home/rosdev/ros2_ws/build/examples_tf2_py/build install --record /home/rosdev/ros2_ws/build/examples_tf2_py/install.log --single-version-externally-managed install_data --force

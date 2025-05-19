@@ -1,0 +1,21 @@
+[1.284s] Invoking command in '/home/rosdev/ros2_ws/src/yolov8_tf_node': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2 LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/yolov8_tf_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/yolov8_tf_node/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov8_tf_node build --build-base /home/rosdev/ros2_ws/build/yolov8_tf_node/build install --record /home/rosdev/ros2_ws/build/yolov8_tf_node/install.log --single-version-externally-managed install_data
+[1.624s] running egg_info
+[1.625s] writing ../../build/yolov8_tf_node/yolov8_tf_node.egg-info/PKG-INFO
+[1.626s] writing dependency_links to ../../build/yolov8_tf_node/yolov8_tf_node.egg-info/dependency_links.txt
+[1.626s] writing entry points to ../../build/yolov8_tf_node/yolov8_tf_node.egg-info/entry_points.txt
+[1.626s] writing requirements to ../../build/yolov8_tf_node/yolov8_tf_node.egg-info/requires.txt
+[1.626s] writing top-level names to ../../build/yolov8_tf_node/yolov8_tf_node.egg-info/top_level.txt
+[1.629s] reading manifest file '../../build/yolov8_tf_node/yolov8_tf_node.egg-info/SOURCES.txt'
+[1.631s] writing manifest file '../../build/yolov8_tf_node/yolov8_tf_node.egg-info/SOURCES.txt'
+[1.631s] running build
+[1.631s] running build_py
+[1.631s] running install
+[1.632s] running install_lib
+[1.634s] running install_data
+[1.634s] running install_egg_info
+[1.637s] removing '/home/rosdev/ros2_ws/install/yolov8_tf_node/lib/python3.10/site-packages/yolov8_tf_node-0.0.0-py3.10.egg-info' (and everything under it)
+[1.638s] Copying ../../build/yolov8_tf_node/yolov8_tf_node.egg-info to /home/rosdev/ros2_ws/install/yolov8_tf_node/lib/python3.10/site-packages/yolov8_tf_node-0.0.0-py3.10.egg-info
+[1.640s] running install_scripts
+[1.678s] Installing transform_detections script to /home/rosdev/ros2_ws/install/yolov8_tf_node/lib/yolov8_tf_node
+[1.678s] writing list of installed files to '/home/rosdev/ros2_ws/build/yolov8_tf_node/install.log'
+[2.206s] Invoked command in '/home/rosdev/ros2_ws/src/yolov8_tf_node' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2 LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/yolov8_tf_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/yolov8_tf_node/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov8_tf_node build --build-base /home/rosdev/ros2_ws/build/yolov8_tf_node/build install --record /home/rosdev/ros2_ws/build/yolov8_tf_node/install.log --single-version-externally-managed install_data

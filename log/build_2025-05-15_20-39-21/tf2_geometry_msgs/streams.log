@@ -1,0 +1,46 @@
+[0.050s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_geometry_msgs': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosdev/ros2_ws/build/tf2_geometry_msgs -- -j12 -l12
+[0.179s] [ 33%] Built target gtest_main
+[0.197s] [ 33%] Built target ament_cmake_python_symlink_tf2_geometry_msgs
+[0.201s] [ 66%] Built target gtest
+[0.261s] [100%] Built target test_tf2_geometry_msgs
+[0.543s] running egg_info
+[0.547s] writing tf2_geometry_msgs.egg-info/PKG-INFO
+[0.547s] writing dependency_links to tf2_geometry_msgs.egg-info/dependency_links.txt
+[0.547s] writing top-level names to tf2_geometry_msgs.egg-info/top_level.txt
+[0.549s] reading manifest file 'tf2_geometry_msgs.egg-info/SOURCES.txt'
+[0.550s] writing manifest file 'tf2_geometry_msgs.egg-info/SOURCES.txt'
+[0.642s] [100%] Built target ament_cmake_python_build_tf2_geometry_msgs_egg
+[0.950s] Invoked command in '/home/rosdev/ros2_ws/build/tf2_geometry_msgs' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosdev/ros2_ws/build/tf2_geometry_msgs -- -j12 -l12
+[0.951s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_geometry_msgs': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rosdev/ros2_ws/build/tf2_geometry_msgs
+[0.985s] -- Install configuration: ""
+[0.985s] -- Execute custom install script
+[0.985s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/environment/pythonpath.sh
+[0.985s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/environment/pythonpath.dsv
+[0.985s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/local/lib/python3.10/dist-packages/tf2_geometry_msgs-0.25.7-py3.10.egg-info/PKG-INFO
+[0.986s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/local/lib/python3.10/dist-packages/tf2_geometry_msgs-0.25.7-py3.10.egg-info/SOURCES.txt
+[0.986s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/local/lib/python3.10/dist-packages/tf2_geometry_msgs-0.25.7-py3.10.egg-info/dependency_links.txt
+[0.986s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/local/lib/python3.10/dist-packages/tf2_geometry_msgs-0.25.7-py3.10.egg-info/top_level.txt
+[0.987s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/local/lib/python3.10/dist-packages/tf2_geometry_msgs/__init__.py
+[0.992s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/local/lib/python3.10/dist-packages/tf2_geometry_msgs/tf2_geometry_msgs.py
+[0.992s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h
+[0.992s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp
+[0.992s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/share/ament_index/resource_index/package_run_dependencies/tf2_geometry_msgs
+[0.992s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/share/ament_index/resource_index/parent_prefix_path/tf2_geometry_msgs
+[0.992s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/environment/ament_prefix_path.sh
+[0.992s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/environment/ament_prefix_path.dsv
+[0.992s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/environment/path.sh
+[0.993s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/environment/path.dsv
+[0.993s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/local_setup.bash
+[0.993s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/local_setup.sh
+[0.993s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/local_setup.zsh
+[0.993s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/local_setup.dsv
+[0.993s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/package.dsv
+[0.995s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/share/ament_index/resource_index/packages/tf2_geometry_msgs
+[0.995s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.995s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.995s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/cmake/tf2_geometry_msgsConfig.cmake
+[0.995s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/cmake/tf2_geometry_msgsConfig-version.cmake
+[0.995s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/package.xml
+[1.065s] Listing '/home/rosdev/ros2_ws/install/tf2_geometry_msgs/local/lib/python3.10/dist-packages/tf2_geometry_msgs'...
+[1.078s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/cmake/export_tf2_geometry_msgsExport.cmake
+[1.084s] Invoked command in '/home/rosdev/ros2_ws/build/tf2_geometry_msgs' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rosdev/ros2_ws/build/tf2_geometry_msgs

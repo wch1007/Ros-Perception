@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.000462] (-) JobUnselected: {'identifier': 'examples_tf2_py'}
+[0.000716] (-) JobUnselected: {'identifier': 'geometry2'}
+[0.001125] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.001353] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.001539] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.001615] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.001753] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.001819] (-) JobUnselected: {'identifier': 'test_tf2'}
+[0.001853] (-) JobUnselected: {'identifier': 'tf2'}
+[0.001928] (-) JobUnselected: {'identifier': 'tf2_bullet'}
+[0.001979] (-) JobUnselected: {'identifier': 'tf2_eigen'}
+[0.002308] (-) JobUnselected: {'identifier': 'tf2_eigen_kdl'}
+[0.002367] (-) JobUnselected: {'identifier': 'tf2_geometry_msgs'}
+[0.002459] (-) JobUnselected: {'identifier': 'tf2_kdl'}
+[0.002513] (-) JobUnselected: {'identifier': 'tf2_msgs'}
+[0.002542] (-) JobUnselected: {'identifier': 'tf2_py'}
+[0.002582] (-) JobUnselected: {'identifier': 'tf2_ros'}
+[0.002625] (-) JobUnselected: {'identifier': 'tf2_ros_py'}
+[0.002655] (-) JobUnselected: {'identifier': 'tf2_sensor_msgs'}
+[0.002841] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.002904] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.002995] (-) JobUnselected: {'identifier': 'yolo_bringup'}
+[0.003046] (-) JobUnselected: {'identifier': 'yolo_msgs'}
+[0.003101] (-) JobUnselected: {'identifier': 'yolo_ros'}
+[0.003150] (cv_bridge) JobQueued: {'identifier': 'cv_bridge', 'dependencies': OrderedDict()}
+[0.003434] (cv_bridge) JobStarted: {'identifier': 'cv_bridge'}
+[0.055680] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'cmake'}
+[0.056587] (cv_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/rosdev/ros2_ws/src/vision_opencv/cv_bridge', '-DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/cv_bridge'], 'cwd': '/home/rosdev/ros2_ws/build/cv_bridge', 'env': OrderedDict([('HOSTNAME', 'GIX-30258983'), ('GIT_ASKPASS', '/vscode/cursor-server/bin/linux-arm64/0781e811de386a0c5bcb07ceb259df8ff8246a50/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/rosdev/ros2_ws/install/yolo_msgs/lib:/home/rosdev/ros2_ws/install/realsense2_camera/lib:/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2_eigen_kdl/lib:/home/rosdev/ros2_ws/install/tf2/lib:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/cursor-server/bin/linux-arm64/0781e811de386a0c5bcb07ceb259df8ff8246a50/bin/helpers/browser.sh'), ('HOME', '/home/rosdev'), ('OLDPWD', '/home/rosdev/ros2_ws/src'), ('DISABLE_AUTO_UPDATE', 'true'), ('TERM_PROGRAM_VERSION', '0.49.6'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-3c073c65-952e-49a7-b014-28c598518c04.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'head -n 10000 | cat'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/cursor-server/bin/linux-arm64/0781e811de386a0c5bcb07ceb259df8ff8246a50/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/cursor-server/bin/linux-arm64/0781e811de386a0c5bcb07ceb259df8ff8246a50/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-dd15179c-a354-4d68-bda7-7fec0f8f71c7.sock'), ('COLCON_PREFIX_PATH', '/home/rosdev/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-2f96bdfa-36e7-4772-8449-55c5af329bc9.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/cursor-server/bin/linux-arm64/0781e811de386a0c5bcb07ceb259df8ff8246a50/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/dev/null'), ('XDG_RUNTIME_DIR', '/tmp/user/1001'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-2f96bdfa-36e7-4772-8449-55c5af329bc9.sock","/tmp/.X11-unix/X1","/home/rosdev/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1001/vscode-git-05347d0bad.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-2f96bdfa-36e7-4772-8449-55c5af329bc9.sock'), ('AMENT_PREFIX_PATH', '/home/rosdev/ros2_ws/install/yolo_bringup:/home/rosdev/ros2_ws/install/yolo_ros:/home/rosdev/ros2_ws/install/yolo_msgs:/home/rosdev/ros2_ws/install/geometry2:/home/rosdev/ros2_ws/install/tf2_tools:/home/rosdev/ros2_ws/install/tf2_sensor_msgs:/home/rosdev/ros2_ws/install/test_tf2:/home/rosdev/ros2_ws/install/tf2_kdl:/home/rosdev/ros2_ws/install/tf2_geometry_msgs:/home/rosdev/ros2_ws/install/examples_tf2_py:/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_eigen:/home/rosdev/ros2_ws/install/tf2_bullet:/home/rosdev/ros2_ws/install/realsense2_camera:/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2_eigen_kdl:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/realsense2_description:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rosdev/ros2_ws/build/cv_bridge'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/rosdev/ros2_ws/install/yolo_ros/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_tools/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_kdl/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_geometry_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rosdev/ros2_ws/install/yolo_bringup:/home/rosdev/ros2_ws/install/yolo_msgs:/home/rosdev/ros2_ws/install/geometry2:/home/rosdev/ros2_ws/install/tf2_sensor_msgs:/home/rosdev/ros2_ws/install/test_tf2:/home/rosdev/ros2_ws/install/tf2_kdl:/home/rosdev/ros2_ws/install/tf2_geometry_msgs:/home/rosdev/ros2_ws/install/tf2_eigen:/home/rosdev/ros2_ws/install/tf2_bullet:/home/rosdev/ros2_ws/install/realsense2_camera:/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2_eigen_kdl:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/realsense2_description:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/yolo_ros:/home/rosdev/ros2_ws/install/tf2_tools:/home/rosdev/ros2_ws/install/examples_tf2_py:/home/rosdev/ros2_ws/install/tf2_ros_py:/opt/ros/humble')]), 'shell': False}
+[0.099356] (-) TimerEvent: {}
+[0.155436] (cv_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199518] (-) TimerEvent: {}
+[0.240310] (cv_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.251945] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.303061] (-) TimerEvent: {}
+[0.378245] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.388668] (cv_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.389092] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.389541] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.393985] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.403222] (-) TimerEvent: {}
+[0.503821] (-) TimerEvent: {}
+[0.528485] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.541488] (cv_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.541950] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.542474] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.549154] (cv_bridge) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.605440] (-) TimerEvent: {}
+[0.706064] (-) TimerEvent: {}
+[0.807069] (-) TimerEvent: {}
+[0.808754] (cv_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.907217] (-) TimerEvent: {}
+[1.007834] (-) TimerEvent: {}
+[1.109975] (-) TimerEvent: {}
+[1.210588] (-) TimerEvent: {}
+[1.311196] (-) TimerEvent: {}
+[1.411825] (-) TimerEvent: {}
+[1.512410] (-) TimerEvent: {}
+[1.613049] (-) TimerEvent: {}
+[1.613793] (cv_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/include/python3.10 (found version "3.10.12") found components: Development NumPy Interpreter Development.Module Development.Embed \n'}
+[1.713216] (-) TimerEvent: {}
+[1.813852] (-) TimerEvent: {}
+[1.900092] (cv_bridge) StderrLine: {'line': b'\x1b[31mCMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):\n'}
+[1.900590] (cv_bridge) StderrLine: {'line': b'  Could NOT find Boost (missing: Boost_INCLUDE_DIR python3)\n'}
+[1.900709] (cv_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.900808] (cv_bridge) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)\n'}
+[1.900911] (cv_bridge) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindBoost.cmake:2360 (find_package_handle_standard_args)\n'}
+[1.901009] (cv_bridge) StderrLine: {'line': b'  CMakeLists.txt:28 (find_package)\n'}
+[1.901096] (cv_bridge) StderrLine: {'line': b'\n'}
+[1.901180] (cv_bridge) StderrLine: {'line': b'\x1b[0m\n'}
+[1.902154] (cv_bridge) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.902446] (cv_bridge) StdoutLine: {'line': b'See also "/home/rosdev/ros2_ws/build/cv_bridge/CMakeFiles/CMakeOutput.log".\n'}
+[1.914017] (-) TimerEvent: {}
+[1.918962] (cv_bridge) CommandEnded: {'returncode': 1}
+[1.958133] (cv_bridge) JobEnded: {'identifier': 'cv_bridge', 'rc': 1}
+[1.969514] (-) EventReactorShutdown: {}

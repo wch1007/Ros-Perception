@@ -1,0 +1,86 @@
+[0.039s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_sensor_msgs': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rosdev/ros2_ws/src/geometry2/tf2_sensor_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/tf2_sensor_msgs
+[0.153s] -- The C compiler identification is GNU 11.4.0
+[0.261s] -- The CXX compiler identification is GNU 11.4.0
+[0.273s] -- Detecting C compiler ABI info
+[0.426s] -- Detecting C compiler ABI info - done
+[0.434s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.434s] -- Detecting C compile features
+[0.434s] -- Detecting C compile features - done
+[0.438s] -- Detecting CXX compiler ABI info
+[0.599s] -- Detecting CXX compiler ABI info - done
+[0.610s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.618s] -- Detecting CXX compile features
+[0.618s] -- Detecting CXX compile features - done
+[0.618s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.889s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.018s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.269s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.278s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.294s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.312s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.340s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.553s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.559s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.702s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.750s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.841s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.859s] -- Looking for pthread.h
+[1.991s] -- Looking for pthread.h - found
+[1.991s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.131s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.133s] -- Found Threads: TRUE  
+[2.310s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.315s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.318s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.355s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.372s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.374s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.374s] -- Configured cppcheck language: c++
+[2.375s] -- Configured cppcheck include dirs: /home/rosdev/ros2_ws/src/geometry2/tf2_sensor_msgs/include
+[2.375s] -- Configured cppcheck exclude dirs and/or files: 
+[2.377s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.377s] -- Configured cpplint exclude dirs and/or files: 
+[2.378s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.379s] -- Added test 'lint_cmake' to check CMake code style
+[2.380s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.382s] -- Added test 'uncrustify' to check C / C++ code style
+[2.382s] -- Configured uncrustify additional arguments: --language;CPP
+[2.383s] -- Added test 'xmllint' to check XML markup files
+[2.387s] -- Configuring done
+[2.419s] -- Generating done
+[2.430s] -- Build files have been written to: /home/rosdev/ros2_ws/build/tf2_sensor_msgs
+[2.460s] Invoked command in '/home/rosdev/ros2_ws/build/tf2_sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rosdev/ros2_ws/src/geometry2/tf2_sensor_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/tf2_sensor_msgs
+[2.462s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_sensor_msgs': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosdev/ros2_ws/build/tf2_sensor_msgs -- -j12 -l12
+[2.552s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.730s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.792s] [ 33%] Built target gtest_main
+[3.846s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[9.228s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[9.361s] [ 66%] Built target gtest
+[9.411s] [ 83%] [32mBuilding CXX object CMakeFiles/test_tf2_sensor_msgs_cpp.dir/test/test_tf2_sensor_msgs.cpp.o[0m
+[24.532s] [100%] [32m[1mLinking CXX executable test_tf2_sensor_msgs_cpp[0m
+[25.647s] [100%] Built target test_tf2_sensor_msgs_cpp
+[25.687s] Invoked command in '/home/rosdev/ros2_ws/build/tf2_sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosdev/ros2_ws/build/tf2_sensor_msgs -- -j12 -l12
+[25.691s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_sensor_msgs': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rosdev/ros2_ws/build/tf2_sensor_msgs
+[25.707s] -- Install configuration: ""
+[25.707s] -- Execute custom install script
+[25.708s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_sensor_msgs/include/tf2_sensor_msgs/tf2_sensor_msgs.h
+[25.729s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_sensor_msgs/include/tf2_sensor_msgs/tf2_sensor_msgs.hpp
+[25.752s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_sensor_msgs/share/ament_index/resource_index/package_run_dependencies/tf2_sensor_msgs
+[25.771s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_sensor_msgs/share/ament_index/resource_index/parent_prefix_path/tf2_sensor_msgs
+[25.786s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/environment/ament_prefix_path.sh
+[25.806s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/environment/ament_prefix_path.dsv
+[25.823s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/environment/path.sh
+[25.841s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/environment/path.dsv
+[25.862s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/local_setup.bash
+[25.884s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/local_setup.sh
+[25.902s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/local_setup.zsh
+[25.921s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/local_setup.dsv
+[25.941s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/package.dsv
+[25.957s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_sensor_msgs/share/ament_index/resource_index/packages/tf2_sensor_msgs
+[25.984s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.003s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.019s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/cmake/tf2_sensor_msgsConfig.cmake
+[26.035s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/cmake/tf2_sensor_msgsConfig-version.cmake
+[26.054s] -- Symlinking: /home/rosdev/ros2_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/package.xml
+[26.078s] Invoked command in '/home/rosdev/ros2_ws/build/tf2_sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rosdev/ros2_ws/build/tf2_sensor_msgs

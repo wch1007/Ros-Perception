@@ -1,0 +1,22 @@
+[1.762s] Invoking command in '/home/rosdev/ros2_ws/build/yolo_ros': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/yolo_msgs:/home/rosdev/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/yolo_msgs:/home/rosdev/ros2_ws/install/cv_bridge LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/yolo_msgs/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/yolo_ros/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rosdev/ros2_ws/build/yolo_ros/build --no-deps symlink_data --force
+[2.193s] running develop
+[2.398s] running egg_info
+[2.398s] writing yolo_ros.egg-info/PKG-INFO
+[2.399s] writing dependency_links to yolo_ros.egg-info/dependency_links.txt
+[2.399s] writing entry points to yolo_ros.egg-info/entry_points.txt
+[2.399s] writing requirements to yolo_ros.egg-info/requires.txt
+[2.400s] writing top-level names to yolo_ros.egg-info/top_level.txt
+[2.404s] reading manifest file 'yolo_ros.egg-info/SOURCES.txt'
+[2.406s] writing manifest file 'yolo_ros.egg-info/SOURCES.txt'
+[2.410s] running build_ext
+[2.410s] Creating /home/rosdev/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo-ros.egg-link (link to .)
+[2.412s] Installing debug_node script to /home/rosdev/ros2_ws/install/yolo_ros/lib/yolo_ros
+[2.413s] Installing detect_3d_node script to /home/rosdev/ros2_ws/install/yolo_ros/lib/yolo_ros
+[2.413s] Installing tracking_node script to /home/rosdev/ros2_ws/install/yolo_ros/lib/yolo_ros
+[2.414s] Installing yolo_node script to /home/rosdev/ros2_ws/install/yolo_ros/lib/yolo_ros
+[2.415s] 
+[2.415s] Installed /home/rosdev/ros2_ws/build/yolo_ros
+[2.415s] running symlink_data
+[2.415s] symbolically linking /home/rosdev/ros2_ws/build/yolo_ros/resource/yolo_ros -> /home/rosdev/ros2_ws/install/yolo_ros/share/ament_index/resource_index/packages
+[2.416s] symbolically linking /home/rosdev/ros2_ws/build/yolo_ros/package.xml -> /home/rosdev/ros2_ws/install/yolo_ros/share/yolo_ros
+[2.552s] Invoked command in '/home/rosdev/ros2_ws/build/yolo_ros' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/yolo_msgs:/home/rosdev/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/yolo_msgs:/home/rosdev/ros2_ws/install/cv_bridge LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/yolo_msgs/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosdev/ros2_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/yolo_ros/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rosdev/ros2_ws/build/yolo_ros/build --no-deps symlink_data --force

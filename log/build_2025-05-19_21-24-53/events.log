@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.001413] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.001985] (-) JobUnselected: {'identifier': 'examples_tf2_py'}
+[0.002561] (-) JobUnselected: {'identifier': 'geometry2'}
+[0.002818] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.003285] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.003527] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.003724] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.003922] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.004116] (-) JobUnselected: {'identifier': 'test_tf2'}
+[0.004201] (-) JobUnselected: {'identifier': 'tf2'}
+[0.004292] (-) JobUnselected: {'identifier': 'tf2_bullet'}
+[0.004383] (-) JobUnselected: {'identifier': 'tf2_eigen'}
+[0.004477] (-) JobUnselected: {'identifier': 'tf2_eigen_kdl'}
+[0.004565] (-) JobUnselected: {'identifier': 'tf2_geometry_msgs'}
+[0.004653] (-) JobUnselected: {'identifier': 'tf2_kdl'}
+[0.004737] (-) JobUnselected: {'identifier': 'tf2_msgs'}
+[0.004811] (-) JobUnselected: {'identifier': 'tf2_py'}
+[0.004861] (-) JobUnselected: {'identifier': 'tf2_ros'}
+[0.004970] (-) JobUnselected: {'identifier': 'tf2_ros_py'}
+[0.005099] (-) JobUnselected: {'identifier': 'tf2_sensor_msgs'}
+[0.005175] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.005241] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.005328] (-) JobUnselected: {'identifier': 'yolo_bringup'}
+[0.005378] (-) JobUnselected: {'identifier': 'yolo_msgs'}
+[0.005524] (-) JobUnselected: {'identifier': 'yolo_ros'}
+[0.005647] (-) JobUnselected: {'identifier': 'yolov8_tf_node'}
+[0.005708] (aruco_realsense_ros) JobQueued: {'identifier': 'aruco_realsense_ros', 'dependencies': OrderedDict([('cv_bridge', '/home/rosdev/ros2_ws/install/cv_bridge'), ('tf2', '/home/rosdev/ros2_ws/install/tf2'), ('tf2_msgs', '/home/rosdev/ros2_ws/install/tf2_msgs'), ('tf2_ros', '/home/rosdev/ros2_ws/install/tf2_ros')])}
+[0.005786] (aruco_realsense_ros) JobStarted: {'identifier': 'aruco_realsense_ros'}
+[0.097636] (-) TimerEvent: {}
+[0.198264] (-) TimerEvent: {}
+[0.299068] (-) TimerEvent: {}
+[0.399685] (-) TimerEvent: {}
+[0.500292] (-) TimerEvent: {}
+[0.600856] (-) TimerEvent: {}
+[0.701468] (-) TimerEvent: {}
+[0.802071] (-) TimerEvent: {}
+[0.902697] (-) TimerEvent: {}
+[1.003345] (-) TimerEvent: {}
+[1.028603] (aruco_realsense_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/aruco_realsense_ros', 'build', '--build-base', '/home/rosdev/ros2_ws/build/aruco_realsense_ros/build', 'install', '--record', '/home/rosdev/ros2_ws/build/aruco_realsense_ros/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rosdev/ros2_ws/src/aruco_realsense_ros', 'env': {'HOSTNAME': 'GIX-30258983', 'GIT_ASKPASS': '/vscode/cursor-server/bin/linux-arm64/0781e811de386a0c5bcb07ceb259df8ff8246a50/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/rosdev/ros2_ws/install/tf2_ros/lib:/home/rosdev/ros2_ws/install/tf2_msgs/lib:/home/rosdev/ros2_ws/install/tf2/lib:/home/rosdev/ros2_ws/install/cv_bridge/lib:/home/rosdev/ros2_ws/install/yolo_msgs/lib:/home/rosdev/ros2_ws/install/realsense2_camera/lib:/home/rosdev/ros2_ws/install/tf2_eigen_kdl/lib:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/lib:/home/rosdev/ros2_ws/install/image_geometry/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/cursor-server/bin/linux-arm64/0781e811de386a0c5bcb07ceb259df8ff8246a50/bin/helpers/browser.sh', 'HOME': '/home/rosdev', 'TERM_PROGRAM_VERSION': '0.49.6', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-df6c61a1-77a7-4a10-aae0-64ff19935111.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/cursor-server/bin/linux-arm64/0781e811de386a0c5bcb07ceb259df8ff8246a50/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/cursor-server/bin/linux-arm64/0781e811de386a0c5bcb07ceb259df8ff8246a50/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'vscode-wayland-1da0d388-b130-467f-9bc9-f2da7946f63f.sock', 'COLCON_PREFIX_PATH': '/home/rosdev/ros2_ws/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-71a3b6cb-3594-4b81-9c5e-09269c8d306f.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/cursor-server/bin/linux-arm64/0781e811de386a0c5bcb07ceb259df8ff8246a50/bin/remote-cli:/home/rosdev/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/user/1001', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-71a3b6cb-3594-4b81-9c5e-09269c8d306f.sock","/tmp/.X11-unix/X7","/home/rosdev/.gnupg/S.gpg-agent"]', 'DISPLAY': ':7', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1001/vscode-git-05347d0bad.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-71a3b6cb-3594-4b81-9c5e-09269c8d306f.sock', 'AMENT_PREFIX_PATH': '/home/rosdev/ros2_ws/install/yolov8_tf_node:/home/rosdev/ros2_ws/install/yolo_bringup:/home/rosdev/ros2_ws/install/yolo_ros:/home/rosdev/ros2_ws/install/yolo_msgs:/home/rosdev/ros2_ws/install/vision_opencv:/home/rosdev/ros2_ws/install/geometry2:/home/rosdev/ros2_ws/install/tf2_tools:/home/rosdev/ros2_ws/install/tf2_sensor_msgs:/home/rosdev/ros2_ws/install/test_tf2:/home/rosdev/ros2_ws/install/tf2_kdl:/home/rosdev/ros2_ws/install/tf2_geometry_msgs:/home/rosdev/ros2_ws/install/examples_tf2_py:/home/rosdev/ros2_ws/install/tf2_ros_py:/home/rosdev/ros2_ws/install/tf2_eigen:/home/rosdev/ros2_ws/install/tf2_bullet:/home/rosdev/ros2_ws/install/realsense2_camera:/home/rosdev/ros2_ws/install/aruco_realsense_ros:/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2_eigen_kdl:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/realsense2_description:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/opencv_tests:/home/rosdev/ros2_ws/install/image_geometry:/home/rosdev/ros2_ws/install/aruco:/home/rosdev/ros2_ws/install/cv_bridge:/opt/ros/humble', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X7', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/rosdev/ros2_ws/build/aruco_realsense_ros', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/rosdev/ros2_ws/build/aruco_realsense_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/aruco_realsense_ros/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/aruco/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/yolov8_tf_node/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/yolo_ros/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_tools/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_kdl/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_geometry_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/examples_tf2_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/aruco_realsense_ros/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/tf2_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/install/aruco/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rosdev/ros2_ws/install/tf2_ros:/home/rosdev/ros2_ws/install/tf2_msgs:/home/rosdev/ros2_ws/install/tf2:/home/rosdev/ros2_ws/install/cv_bridge:/home/rosdev/ros2_ws/install/aruco:/home/rosdev/ros2_ws/install/yolo_bringup:/home/rosdev/ros2_ws/install/yolo_msgs:/home/rosdev/ros2_ws/install/vision_opencv:/home/rosdev/ros2_ws/install/geometry2:/home/rosdev/ros2_ws/install/tf2_sensor_msgs:/home/rosdev/ros2_ws/install/test_tf2:/home/rosdev/ros2_ws/install/tf2_kdl:/home/rosdev/ros2_ws/install/tf2_geometry_msgs:/home/rosdev/ros2_ws/install/tf2_eigen:/home/rosdev/ros2_ws/install/tf2_bullet:/home/rosdev/ros2_ws/install/realsense2_camera:/home/rosdev/ros2_ws/install/tf2_py:/home/rosdev/ros2_ws/install/tf2_eigen_kdl:/home/rosdev/ros2_ws/install/realsense2_description:/home/rosdev/ros2_ws/install/realsense2_camera_msgs:/home/rosdev/ros2_ws/install/image_geometry'}, 'shell': False}
+[1.103589] (-) TimerEvent: {}
+[1.204238] (-) TimerEvent: {}
+[1.304855] (-) TimerEvent: {}
+[1.389071] (aruco_realsense_ros) StdoutLine: {'line': b'running egg_info\n'}
+[1.390340] (aruco_realsense_ros) StdoutLine: {'line': b'writing ../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info/PKG-INFO\n'}
+[1.391015] (aruco_realsense_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info/dependency_links.txt\n'}
+[1.391873] (aruco_realsense_ros) StdoutLine: {'line': b'writing entry points to ../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info/entry_points.txt\n'}
+[1.392071] (aruco_realsense_ros) StdoutLine: {'line': b'writing requirements to ../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info/requires.txt\n'}
+[1.392202] (aruco_realsense_ros) StdoutLine: {'line': b'writing top-level names to ../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info/top_level.txt\n'}
+[1.394551] (aruco_realsense_ros) StdoutLine: {'line': b"reading manifest file '../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info/SOURCES.txt'\n"}
+[1.395774] (aruco_realsense_ros) StdoutLine: {'line': b"writing manifest file '../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info/SOURCES.txt'\n"}
+[1.396040] (aruco_realsense_ros) StdoutLine: {'line': b'running build\n'}
+[1.396208] (aruco_realsense_ros) StdoutLine: {'line': b'running build_py\n'}
+[1.396387] (aruco_realsense_ros) StdoutLine: {'line': b'copying aruco_realsense_ros/aruco_node.py -> /home/rosdev/ros2_ws/build/aruco_realsense_ros/build/lib/aruco_realsense_ros\n'}
+[1.396902] (aruco_realsense_ros) StdoutLine: {'line': b'running install\n'}
+[1.397489] (aruco_realsense_ros) StdoutLine: {'line': b'running install_lib\n'}
+[1.398814] (aruco_realsense_ros) StdoutLine: {'line': b'copying /home/rosdev/ros2_ws/build/aruco_realsense_ros/build/lib/aruco_realsense_ros/aruco_node.py -> /home/rosdev/ros2_ws/install/aruco_realsense_ros/lib/python3.10/site-packages/aruco_realsense_ros\n'}
+[1.400563] (aruco_realsense_ros) StdoutLine: {'line': b'byte-compiling /home/rosdev/ros2_ws/install/aruco_realsense_ros/lib/python3.10/site-packages/aruco_realsense_ros/aruco_node.py to aruco_node.cpython-310.pyc\n'}
+[1.404964] (-) TimerEvent: {}
+[1.405401] (aruco_realsense_ros) StdoutLine: {'line': b'running install_data\n'}
+[1.405752] (aruco_realsense_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.408912] (aruco_realsense_ros) StdoutLine: {'line': b"removing '/home/rosdev/ros2_ws/install/aruco_realsense_ros/lib/python3.10/site-packages/aruco_realsense_ros-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.409869] (aruco_realsense_ros) StdoutLine: {'line': b'Copying ../../build/aruco_realsense_ros/aruco_realsense_ros.egg-info to /home/rosdev/ros2_ws/install/aruco_realsense_ros/lib/python3.10/site-packages/aruco_realsense_ros-0.0.0-py3.10.egg-info\n'}
+[1.410948] (aruco_realsense_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[1.447187] (aruco_realsense_ros) StdoutLine: {'line': b'Installing aruco_node script to /home/rosdev/ros2_ws/install/aruco_realsense_ros/lib/aruco_realsense_ros\n'}
+[1.448032] (aruco_realsense_ros) StdoutLine: {'line': b"writing list of installed files to '/home/rosdev/ros2_ws/build/aruco_realsense_ros/install.log'\n"}
+[1.505158] (-) TimerEvent: {}
+[1.519204] (aruco_realsense_ros) CommandEnded: {'returncode': 0}
+[1.538736] (aruco_realsense_ros) JobEnded: {'identifier': 'aruco_realsense_ros', 'rc': 0}
+[1.540373] (-) EventReactorShutdown: {}

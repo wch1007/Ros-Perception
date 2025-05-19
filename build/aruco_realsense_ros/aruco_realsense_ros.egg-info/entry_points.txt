@@ -1,0 +1,3 @@
+[console_scripts]
+aruco_node = aruco_realsense_ros.aruco_node:main
+

@@ -1,0 +1,41 @@
+[0.019s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_py': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/rosdev/ros2_ws/build/tf2_py -- -j12 -l12
+[0.136s] [  0%] Built target ament_cmake_python_copy_tf2_py
+[0.160s] [35m[1mConsolidate compiler generated dependencies of target _tf2_py[0m
+[0.187s] [100%] Built target _tf2_py
+[0.530s] running egg_info
+[0.530s] writing tf2_py.egg-info/PKG-INFO
+[0.530s] writing dependency_links to tf2_py.egg-info/dependency_links.txt
+[0.531s] writing top-level names to tf2_py.egg-info/top_level.txt
+[0.533s] reading manifest file 'tf2_py.egg-info/SOURCES.txt'
+[0.534s] writing manifest file 'tf2_py.egg-info/SOURCES.txt'
+[0.609s] [100%] Built target ament_cmake_python_build_tf2_py_egg
+[0.671s] Invoked command in '/home/rosdev/ros2_ws/build/tf2_py' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/rosdev/ros2_ws/build/tf2_py -- -j12 -l12
+[0.672s] Invoking command in '/home/rosdev/ros2_ws/build/tf2_py': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/rosdev/ros2_ws/build/tf2_py
+[0.673s] -- Install configuration: ""
+[0.673s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_py/share/tf2_py/environment/pythonpath.sh
+[0.673s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_py/share/tf2_py/environment/pythonpath.dsv
+[0.673s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages/tf2_py-0.25.7-py3.10.egg-info
+[0.673s] -- Installing: /home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages/tf2_py-0.25.7-py3.10.egg-info/dependency_links.txt
+[0.673s] -- Installing: /home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages/tf2_py-0.25.7-py3.10.egg-info/PKG-INFO
+[0.673s] -- Installing: /home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages/tf2_py-0.25.7-py3.10.egg-info/SOURCES.txt
+[0.673s] -- Installing: /home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages/tf2_py-0.25.7-py3.10.egg-info/top_level.txt
+[0.674s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages/tf2_py
+[0.674s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages/tf2_py/__init__.py
+[0.700s] Listing '/home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages/tf2_py'...
+[0.710s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_py/local/lib/python3.10/dist-packages/tf2_py/_tf2_py.so
+[0.710s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_py/share/ament_index/resource_index/package_run_dependencies/tf2_py
+[0.711s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_py/share/ament_index/resource_index/parent_prefix_path/tf2_py
+[0.711s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_py/share/tf2_py/environment/ament_prefix_path.sh
+[0.711s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_py/share/tf2_py/environment/ament_prefix_path.dsv
+[0.712s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_py/share/tf2_py/environment/path.sh
+[0.713s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_py/share/tf2_py/environment/path.dsv
+[0.713s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_py/share/tf2_py/local_setup.bash
+[0.713s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_py/share/tf2_py/local_setup.sh
+[0.713s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_py/share/tf2_py/local_setup.zsh
+[0.715s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_py/share/tf2_py/local_setup.dsv
+[0.716s] -- Installing: /home/rosdev/ros2_ws/install/tf2_py/share/tf2_py/package.dsv
+[0.716s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_py/share/ament_index/resource_index/packages/tf2_py
+[0.716s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_py/share/tf2_py/cmake/tf2_pyConfig.cmake
+[0.717s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_py/share/tf2_py/cmake/tf2_pyConfig-version.cmake
+[0.717s] -- Up-to-date: /home/rosdev/ros2_ws/install/tf2_py/share/tf2_py/package.xml
+[0.757s] Invoked command in '/home/rosdev/ros2_ws/build/tf2_py' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/tf2:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/tf2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/rosdev/ros2_ws/build/tf2_py

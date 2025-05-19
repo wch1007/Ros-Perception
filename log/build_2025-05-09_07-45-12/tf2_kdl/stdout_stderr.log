@@ -1,0 +1,19 @@
+[  0%] Built target ament_cmake_python_copy_tf2_kdl
+[ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 33%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 33%] Built target gtest
+running egg_info
+creating tf2_kdl.egg-info
+writing tf2_kdl.egg-info/PKG-INFO
+writing dependency_links to tf2_kdl.egg-info/dependency_links.txt
+writing top-level names to tf2_kdl.egg-info/top_level.txt
+writing manifest file 'tf2_kdl.egg-info/SOURCES.txt'
+reading manifest file 'tf2_kdl.egg-info/SOURCES.txt'
+writing manifest file 'tf2_kdl.egg-info/SOURCES.txt'
+[ 33%] Built target ament_cmake_python_build_tf2_kdl_egg
+[ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 66%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 66%] Built target gtest_main
+[ 83%] [32mBuilding CXX object CMakeFiles/test_kdl.dir/test/test_tf2_kdl.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_kdl[0m
+[100%] Built target test_kdl
