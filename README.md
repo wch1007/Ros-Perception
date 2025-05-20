@@ -658,3 +658,5 @@ data:
 - -0.006772688466906401
 ---
 ```
+# tf
+Result:tf2_msgs.srv.FrameGraph_Response(frame_yaml="aruco_marker_7: \n  parent: 'camera_color_optical_frame'\n  broadcaster: 'default_authority'\n  rate: 16.165\n  most_recent_transform: 1747776369.725930\n  oldest_transform: 1747776366.818405\n  buffer_length: 2.908\ncamera_color_optical_frame: \n  parent: 'aruco_marker_7'\n  broadcaster: 'default_authority'\n  rate: 30.564\n  most_recent_transform: 1747776369.727530\n  oldest_transform: 1747776367.469964\n  buffer_length: 2.258\ncamera_depth_frame: \n  parent: 'camera_link'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\ncamera_depth_optical_frame: \n  parent: 'camera_depth_frame'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\ncamera_color_frame: \n  parent: 'camera_link'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\n")
