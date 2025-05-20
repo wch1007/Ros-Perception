@@ -3,6 +3,8 @@
 ## Project Overview
 
 This project is a robotic perception system integrating ArUco marker detection and pose estimation based on RealSense cameras, YOLO object detection and 3D localization, and multi-frame transformation. The system enables accurate recognition and localization of objects in the workspace, and transforms target poses into the robot arm base frame for subsequent grasping and manipulation.
+https://docs.google.com/document/d/11xjWABXkmtUkdhgVQmDyfbheEC6ylWzkDBqWH_Du0WM/edit?tab=t.0
+
 
 ## Developers
 
