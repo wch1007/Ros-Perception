@@ -61,7 +61,7 @@ ros2 run tf2_ros static_transform_publisher _ _ _ _ _ _ map camera_link # 中间
 
 ros2 run yolov8_tf_node transform_detections # 最终计算object对于qrcode frame的坐标（中间用相机位姿进行计算）
 ```
-
+ros2 launch realsense2_camera rs_launch.py align_depth.enable:=true
 
 ## Setting
 
@@ -76,7 +76,7 @@ source install/setup.bash
 
 #### T1
 ```bash
-ros2 launch realsense2_camera rs_launch.py
+ros2 launch realsense2_camera rs_launch.py align_depth.enable:=true
 ```
 
 #### T2
