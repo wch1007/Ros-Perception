@@ -184,10 +184,14 @@ ros2 launch yolo_bringup yolov8.launch.py \
 ```
 ```bash
 ros2 topic echo /camera/aligned_depth_to_color/image_raw
+```
+```bash
 ros2 topic echo /camera/color/image_raw
-
+```
+```bash
 ros2 run rqt_image_view rqt_image_view
-
+```
+```bash
 ros2 topic echo /yolo/detections_3d
 ```
 
